@@ -27,7 +27,7 @@
 
 ## Prelude
 
-While Wabbajack takes care of 99% of the work, there are still stome steps that need to be completed by the user. The Setup will take you through the process from start to finish and you are expected to follow it to the letter.
+While Wabbajack takes care of 99% of the work, there are still some steps that need to be completed by the user. The Setup will take you through the process from start to finish and you are expected to follow it to the letter.
 
 None of the instructions here are specific to the Phoenix: Fallout list. Any other Wabbajack list authors are welcome to copy this page, or simply link back here.
 
