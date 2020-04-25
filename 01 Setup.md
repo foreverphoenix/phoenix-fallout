@@ -49,6 +49,8 @@ Mod Organizer 2 requires the latest Microsoft Visual C++ Redistributable.
 
 - Open the [official VC Redists page](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) and download the following file:
   - vc_redist.x64.exe
+- Run downloaded executable. It will guide you through the installation process.
+- You may have to restart your computer in order to finalise the installation.
 
 ![VC Redists](Media/setup/vc_redists.png)
 
