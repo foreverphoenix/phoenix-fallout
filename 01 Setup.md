@@ -21,6 +21,9 @@
   - [Official High Resolution Texture Pack DLC](#official-high-resolution-texture-pack-dlc)
   - [Creation Club Content](#creation-club-content)
 - [Wabbajack](#wabbajack)
+  - [Installation](#installation)
+  - [Game Folder Files](#game-folder-files)
+  - [Final Step](#final-step)
 
 ![separator](Media/Separator.png)
 
@@ -41,7 +44,10 @@ None of the instructions here are specific to the Phoenix: Fallout list. Any oth
 ## Modding Folder
 
 - On a hard drive with plenty of free space (that is not your SSD), create a new folder called **Fallout 4 Modding**.
-- Open the new folder and create a folder called **Backup** inside.
+- Create several more folders inside:
+  - `Fallout 4 Modding\Backups\Creation Club`
+  - `Fallout 4 Modding\Backups\Executables 1.10.163.0`
+  - `Fallout 4 Modding\Wabbajack`
 
 ## VC Redists
 
@@ -149,10 +155,10 @@ In order to prevent Creation Club updates from interrupting your playthrough and
 
 Although Steam will no longer update Fallout 4 automatically, I still recommend keeping backups of the two executables (**Fallout4.exe** and **Fallout4Launcher.exe**), just in case. If you accidentally updated, all you need to do to roll back is replace the executables in your **root** folder with the ones you backed up. This also comes in handy if you had to regenerate INI files or validate game files through Steam for whatever reason and were forced to update.
 
-* Create a new folder: `Your Modding Folder\Backups\Executables 1.x.x` (enter the current version number).
-* Copy the following two files from your **root** folder into the new directory:
-  * **Fallout4.exe**
-  * **Fallout4Launcher.exe**
+- Navigate to `steamapps\common\Fallout4` and copy (CTRL + C) the following files:
+  - **Fallout4.exe**
+  - **Fallout4Launcher.exe**
+- Paste (CTRL + V) them to `Fallout 4 Modding\Backups\Executables 1.10.163.0`.
 
 ## Official High Resolution Texture Pack DLC
 
@@ -168,11 +174,24 @@ Bethesda published a free 55GB texture pack with upscaled 4K textures that are n
 
 If you bought any "creations" from the Creation Club (or grabbed some while they were available for free), they will have been re-downloaded alongside the game. Wabbajack lists do not typically support Creation Club content so you should remove the files from your Data folder for the time being.
 
-- Go into your modding folder and create a **Creation Club** folder inside the **Backups** folder.
-- Navigate to your **Data** folder:
-  - `steamapps\common\Fallout4\Data`
-- Move all files starting with **cc** to `Fallout 4 Modding\Backups\Creation Club`.
+- Navigate to `steamapps\common\Fallout4\Data` and cut (CTRL + X) all files starting with **cc**.
+- Paste (CTRL + V) all files to `Fallout 4 Modding\Backups\Creation Club`.
 
 ![separator](Media/Separator.png)
 
 # Wabbajack
+
+## Installation
+
+- Download [the latest Wabbajack archive](https://github.com/wabbajack-tools/wabbajack/releases) from Github.
+- Extract the downloaded archive to `Fallout 4 Modding\Wabbajack`.
+- Double-click **Wabbajack.exe**.
+
+## Game Folder Files
+
+- Navigate to your Wabbajack installation directory and open the **Game Folder Files** folder.
+- Move all files inside to `steamapps\common\Fallout4`.
+
+## Final Step
+
+- Go read your Wabbajack list's readme and follow any additional instructions.
