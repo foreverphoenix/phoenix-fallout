@@ -13,11 +13,11 @@
   - [INI Folder](#ini-folder)
   - [Steam Library](#steam-library)
   - [Reinstalling the game](#reinstalling-the-game)
-  - [Official High Resolution Texture Pack DLC](#official-high-resolution-texture-pack-dlc)
   - [Regenerating INI Files](#regenerating-ini-files)
   - [Future Updates](#future-updates)
   - [Disable Auto Update](#disable-auto-update)
   - [Executables Backup](#executables-backup)
+  - [Official High Resolution Texture Pack DLC](#official-high-resolution-texture-pack-dlc)
   - [Creation Club Content](#creation-club-content)
 - [Wabbajack](#wabbajack)
 
@@ -105,16 +105,6 @@ Otherwise follow the instructions below to create a new Steam Library:
 
 Wait for Fallout 4 to be downloaded before you proceed.
 
-## Official High Resolution Texture Pack DLC
-
-Bethesda published a free 55GB texture pack with upscaled 4K textures that are nowhere near worth the hard drive space, especially not when compared to higher quality mod-added textures. If you had the HD DLC installed previously, you need to disable it in Steam.
-
-- Open **Steam** and go into your **Game Library**.
-- Go to the **Fallout 4** page and click **Manage my 8 DLC**.
-- Uncheck **Fallout 4 - High Resolution Texture Pack** in the list and click **Save**.
-
-![Disable HD DLC](Media/setup/disable_hd_dlc.png)
-
 ## Regenerating INI Files
 
 After re-installing the game, it is important to launch it at least once through Steam so that the registry keys are set up. Otherwise, certain modding tools may not recognise the game. Upon launching the game, the default set of INI files will also be regenerated.
@@ -151,6 +141,16 @@ Although Steam will no longer update Fallout 4 automatically, I still recommend 
 * Copy the following two files from your **root** folder into the new directory:
   * **Fallout4.exe**
   * **Fallout4Launcher.exe**
+
+## Official High Resolution Texture Pack DLC
+
+Bethesda published a free 55GB texture pack with upscaled 4K textures that are nowhere near worth the hard drive space, especially not when compared to higher quality mod-added textures. If you had the HD DLC installed previously, you need to disable it in Steam.
+
+- Open **Steam** and go into your **Game Library**.
+- Go to the **Fallout 4** page and click **Manage my 8 DLC**.
+- Uncheck **Fallout 4 - High Resolution Texture Pack** in the list and click **Save**.
+
+![Disable HD DLC](Media/setup/disable_hd_dlc.png)
 
 ## Creation Club Content
 
