@@ -6,6 +6,7 @@
   - [Prelude](#prelude)
   - [Requirements](#requirements)
   - [Modding Folder](#modding-folder)
+  - [VC Redists](#vc-redists)
 - [Fallout 4](#fallout-4)
   - [Installation Directory](#installation-directory)
   - [Preferred Hard Drive](#preferred-hard-drive)
@@ -15,7 +16,7 @@
   - [Reinstalling the game](#reinstalling-the-game)
   - [Regenerating INI Files](#regenerating-ini-files)
   - [Future Updates](#future-updates)
-  - [Disable Auto Update](#disable-auto-update)
+  - [Disable Auto Updates](#disable-auto-updates)
   - [Executables Backup](#executables-backup)
   - [Official High Resolution Texture Pack DLC](#official-high-resolution-texture-pack-dlc)
   - [Creation Club Content](#creation-club-content)
@@ -41,6 +42,15 @@ None of the instructions here are specific to the Phoenix: Fallout list. Any oth
 
 - On a hard drive with plenty of free space (that is not your SSD), create a new folder called **Fallout 4 Modding**.
 - Open the new folder and create a folder called **Backup** inside.
+
+## VC Redists
+
+Mod Organizer 2 requires the latest Microsoft Visual C++ Redistributable.
+
+- Open the [official VC Redists page](https://support.microsoft.com/en-us/help/2977003/the-latest-supported-visual-c-downloads) and download the following file:
+  - vc_redist.x64.exe
+
+![VC Redists](Media/setup/vc_redists.png)
 
 ![separator](Media/Separator.png)
 
@@ -123,7 +133,7 @@ Unfortunately any update for the Creation Club requires the game executables to 
 
 In order to prevent Creation Club updates from interrupting your playthrough and breaking your game, we are going to disable automatic updates in Steam. We are also going to backup the current version's executables so you can restore them at any time.
 
-## Disable Auto Update
+## Disable Auto Updates
 
 - Open Steam and find **Fallout 4** in your **Game Library**.
 - Right-click it and select **Properties**
