@@ -42,7 +42,21 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
   -  PhyOp (Light) DLC 1.2a
   -  PhyOp (Light) Base Game 1.2a (2k Brahmin Pack Textures)
   -  PhyOp (Light) Base Game 1.2a Face Sculpting Fix
-- [Armor and Weapons Keywords Community Resource (AWKCR)](https://www.nexusmods.com/fallout4/mods/6091) is one of key mod for Fallout 4 but has been suffering from feature creep in recent years. I am using the old version 4.02, forwarded some UFO4P edits, and stripped out the additional workbenches and ammo crafting features. The BSAs were also deleted as they are now redundant.
+
+## Armor and Weapon Keywords Community Resource
+
+[Armor and Weapons Keywords Community Resource (AWKCR)](https://www.nexusmods.com/fallout4/mods/6091) is one of key mod for Fallout 4 but has been suffering from feature creep in recent years. I am using the old version 4.02, forwarded some UFO4P edits, and stripped out the additional workbenches and ammo crafting features. The BSAs were also deleted as they are now redundant.
+
+Literally all the mod does anymore is add proper keywords.
+
+## Armorsmith Extended
+
+Like AWKCR, [Armorsmith Extended](https://www.nexusmods.com/fallout4/mods/2228) has been suffering from bloat over the years. Using the latest version (4.6), I stripped it down to the essentials. What I kept from the original mod:
+
+- Super mutants (eg Strong) can equip most headwear pieces.
+- Nick Valentine can wear anything.
+- You can wear armor pieces on top of clothing / outfits.
+- Different pieces of headware can be combined if they don't overlap (helmet and bandana etc).
 
 # Interface
 
