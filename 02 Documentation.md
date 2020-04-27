@@ -1,16 +1,34 @@
 ![logo](Media/Logo.png)
 
+**TABLE OF CONTENTS**
+- [The Documentation](#the-documentation)
+- [Preparations](#preparations)
+- [Game Folder Files](#game-folder-files)
+- [Essentials](#essentials)
+  - [Armor and Weapon Keywords Community Resource](#armor-and-weapon-keywords-community-resource)
+  - [Armorsmith Extended](#armorsmith-extended)
+- [Item Sorting](#item-sorting)
+  - [Valdacil's Item Sorting](#valdacils-item-sorting)
+  - [VIS Expanded](#vis-expanded)
+  - [Custom DEF_INV_TAGS](#custom-def_inv_tags)
+
+![separator](/Media/Separator.png)
+
 # The Documentation
 
 This page serves two purposes: One, to inform the user about the contents of this Wabbajack list, and two, remind me what I did to which files. You don't have to read it but it will help you understand how Phoenix: Fallout changes the game and what my thoughts behind each mod addition were.
 
 **This page does not include any instructions whatsoever.** There is nothing you have to do yourself. It's just information on the Wabbajack list and my personal notes.
 
+![separator](/Media/Separator.png)
+
 # Preparations
 
 - Set up [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) (2.2.2.1).
 - Improved INI files with [BethINI](https://www.nexusmods.com/fallout4/mods/67) 3.3 (not using Custom INIs).
 - Sorted DLC in the mod order to match the load order.
+
+![separator](/Media/Separator.png)
 
 # Game Folder Files
 
@@ -31,6 +49,8 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 
 ![Game Folder Files](Media/documentation/game_folder_files.png)
 
+![separator](/Media/Separator.png)
+
 # Essentials
 
 - The [F4SE](http://f4se.silverlock.org/) scripts are packaged separately and installed in MO2.
@@ -42,6 +62,9 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
   -  PhyOp (Light) DLC 1.2a
   -  PhyOp (Light) Base Game 1.2a (2k Brahmin Pack Textures)
   -  PhyOp (Light) Base Game 1.2a Face Sculpting Fix
+- [Armor and Weapons Keywords Community Resource (AWKCR)](https://www.nexusmods.com/fallout4/mods/6091) is a stripped down copy with only the new keywords.
+- Also stripped down [Armorsmith Extended](https://www.nexusmods.com/fallout4/mods/2228) to its equipment slot features (see below).
+- For [DEF_UI](https://www.nexusmods.com/fallout4/mods/10654), I chose both DEF_HUD and DEF_INV in the FOMOD, as well as 
 
 ## Armor and Weapon Keywords Community Resource
 
@@ -58,5 +81,31 @@ Like AWKCR, [Armorsmith Extended](https://www.nexusmods.com/fallout4/mods/2228) 
 - You can wear armor pieces on top of clothing / outfits.
 - Different pieces of headware can be combined if they don't overlap (helmet and bandana etc).
 
-# Interface
+![separator](/Media/Separator.png)
 
+# Item Sorting
+
+## Valdacil's Item Sorting
+
+While [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) has technically been superceeded by [VIS-G Item Sorting](https://www.nexusmods.com/fallout4/mods/33383). However, I am a stubborn person, and much prefer VIS' more simplistic sorting and icons over VIS-G, so that is what I am using.
+
+- **ValdacilsItemSorting-Perks.esp:** Forwarded UFO4P edits.
+- **ValdacilsItemSorting-ExplosivesSortTop.esp:** Sort to Top with weight version. Forwarded `_WeaponType_Thrown [KYWD:08000959]` from AWKCR for each record.
+- **ValdacilsItemSorting-AidReducedWeight.esp** Chems and Syringer Ammo have weight again, but quest items remain weightless. Set weight for gourds and melons to 0.5. Forwarded UFO4P edits.
+- **ValdacilsItemSorting-Misc.esp:** Forwarded UFO4P edits.
+- **ValdacilsItemSorting-JunkBetter+DEF_INV.esp** Merged NotJunk changes into BetterJunkDEF_INV. Renamed all empty bottles to "Empty {Bottle Type}". Forwarded UFO4P edits.
+- **ValdacilsItemSorting-Mods.esp:** Vanilla weight version. Records are untouched.
+- **ValdacilsItemSorting-Ammo.esp:** Vanilla weight version. Added DLC support.
+
+## VIS Expanded
+
+This plugin adds missing keywords to some pieces of armor / clothing, and manually tags all items that the game didn't recognise for some reason (even though they have the correct keywords).
+
+## Custom DEF_INV_TAGS
+
+- Set `hidetag` for armor / power armor pieces and weapons to 'true'.
+- Added several new tags for faction armor that had no icon associated with them:
+  - (Minutemen)
+  - (BOS) Brotherhood of Steel
+  - (COA) Child of Atom
+  - (DC) Diamond City
