@@ -4,14 +4,17 @@
 
 Phoenix: Fallout is a Wabbajack mod list for Fallout 4 with an emphasis on enhanced gameplay and visuals while staying true to the original game. As a vanilla-plus overhaul for a 2015 game, you can expect improved visuals *and* performance as well as changes to various gameplay mechanics.
 
-What you can expect from this setup:
+## Features
 
 -  Moderately improved visuals while retaining a high frame rate.
 -  Custom file edits and patches for a coherent experience.
+-  VIS-based sorting overhaul with a custom keywords resource.
 -  Detailed instructions for the initial setup as well as ingame configuration.
 
-Phoenix: Fallout does not include:
+## Not included
 
+- Silent protagonist.
+- Survival mode.
 - Any type of NSFW content.
 - New quest mods.
 - Mods that are vastly different from the vanilla experience.
