@@ -43,4 +43,10 @@ Some of you may know me from my Skyrim Special Edition modding guide, The Phoeni
 
 This Wabbajack list is a side-project of mine, based on years of attempting to turn Fallout 4 into the game I would like it to be - just a little better than vanilla. It is worth noting that I have not played previous Fallout games and therefore I have no opinion on them, or on how they compare to FO4. Personally, I love FO4 nowhere near as much as I do Skyrim, but it provides another modding playground so here we are.
 
+# Future Plans
 
+I am planning to build Phoenix: Fallout in three steps:
+
+1. Create a baseline vanilla plus setup. Establish primary systems (item sorting, crafting stations).
+2. Expand the settlement building system with new mods and SMM integration.
+3. Implement survival mods (Campfire 2.0 when it's out, Canteens of the Commonwealth, potentially [Advanced Needs 2](https://www.nexusmods.com/fallout4/mods/40440)).
