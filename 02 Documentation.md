@@ -2,22 +2,10 @@
 
 **TABLE OF CONTENTS**
 - [The Documentation](#the-documentation)
-  - [Preface](#preface)
-  - [Features](#features)
-  - [My Tools](#my-tools)
-  - [Preparations](#preparations)
-  - [Game Folder Files](#game-folder-files)
+- [Game Folder Files](#game-folder-files)
 - [Essentials](#essentials)
 - [Frameworks](#frameworks)
 - [Item Sorting](#item-sorting)
-  - [Overview](#overview)
-  - [Valdacil's Item Sorting](#valdacils-item-sorting)
-  - [Phoenix - Weapon Sorting](#phoenix---weapon-sorting)
-  - [Armor Tab Sorting](#armor-tab-sorting)
-  - [Phoenix - Armor Sorting](#phoenix---armor-sorting)
-  - [Phoenix - Power Armor Sorting](#phoenix---power-armor-sorting)
-  - [Phoenix - Cosmetics Sorting](#phoenix---cosmetics-sorting)
-  - [Custom DEF_INV_TAGS](#custom-def_inv_tags)
 - [Simple Crafting Stations](#simple-crafting-stations)
 - [Fixes](#fixes)
 - [Tweaks](#tweaks)
@@ -30,7 +18,8 @@
 - [Vehicles](#vehicles)
 - [Architecture](#architecture)
 - [Creatures](#creatures)
-- [Body & Skin](#body--skin)
+- [Body and Skin](#body-and-skin)
+- [Character Creation](#character-creation)
 - [Overhauls](#overhauls)
 - [Power Armor](#power-armor)
 - [Settlements](#settlements)
@@ -43,33 +32,26 @@
 
 # The Documentation
 
-## Preface
-
 This page serves two purposes: One, to inform the user about the contents of this Wabbajack list, and two, remind me what I did to which files. You don't have to read it but it will help you understand how Phoenix: Fallout changes the game and what my thoughts behind each mod addition were.
 
 **This page does not include any instructions whatsoever.** There is nothing you have to do yourself. It's just information on the Wabbajack list and my personal notes.
 
-## Features
-
-- Adventure with Dogmeat and another companion.
-- Customisation:
-  - LUTs
-  - DEF_HUD presets?
-
-## My Tools
+### My Tools
 
 - SSEEdit
 - zEdit
 - Bethesda Archive Extractor
 - [XWM Music Converter](https://www.nexusmods.com/fallout4/mods/24888)
 
-## Preparations
+### Preparations
 
 - Set up [Mod Organizer 2](https://www.nexusmods.com/skyrimspecialedition/mods/6194) (2.2.2.1).
 - Improved INI files with [BethINI](https://www.nexusmods.com/fallout4/mods/67) 3.3 (not using Custom INIs).
 - Sorted DLC in the mod order to match the load order.
 
-## Game Folder Files
+![separator](/Media/Separator.png)
+
+# Game Folder Files
 
 Not all mods can be installed into the **Data** folder or be handled by Mod Organizer 2. The following mods need their files inside the **root** folder:
 
@@ -115,101 +97,27 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 - [Workshop Framework](https://www.nexusmods.com/fallout4/mods/35004) improves upon the settlement system with rewritten scripts and many new features.
 - [Transfer Settlements - Shareable Settlement Blueprints](https://www.nexusmods.com/fallout4/mods/22442) enables import and export of settlement builds.
 - [Settlement Menu Manager](https://www.nexusmods.com/fallout4/mods/24204) offers a simple, script-based solution for implementing new workshop menus.
+- [Phoenix - Keywords] is a heavily stripped-down, custom AWKCR replacer, required for my sorting modules.
 
 ![separator](/Media/Separator.png)
 
 # Item Sorting
 
-## Overview
-
-- [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) is my preferred sorting overhaul, although I heavily customised all files.
+- Phoenix - Weapon Sorting
+- Phoenix - Cosmetic Sorting
+- Phoenix - Armor Sorting
+- Phoenix - Power Armor Sorting
+- [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) is my preferred sorting overhaul, although I heavily customised all files. Included modules:
+  - Explosives
+  - Aid
+  - Misc
+  - Junk
+  - Mods
+  - Ammo
+  - Perks
+  - Config Files
 - [Updated IconLibs2 for DEF_UI](https://www.nexusmods.com/fallout4/mods/13957) contains new and improved icons for DEF_UI. Some of the new icons are used in my tweaked version of VIS.
-
-## Valdacil's Item Sorting
-
-While [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) has technically been superceeded by [VIS-G Item Sorting](https://www.nexusmods.com/fallout4/mods/33383). However, I am a stubborn person, and much prefer VIS' more simplistic sorting and icons over VIS-G, so that is what I am using.
-
-Added DLC support for all plugins listed below. Forwarded UFO4P edits where necessary.
-
-- **ValdacilsItemSorting-ExplosivesSortBottom.esp:** Added new tag {Trap} for the Far Harbor traps (which are classified as explosives).
-- **ValdacilsItemSorting-AidReducedWeight.esp:** Chems and Syringer Ammo have weight again, but quest items remain weightless. Set weight for gourds and melons to 0.5.
-- **ValdacilsItemSorting-Misc.esp**
-- **ValdacilsItemSorting-JunkBetter+DEF_INV.esp:** Merged NotJunk changes into BetterJunkDEF_INV. Renamed all empty bottles to "Empty {Bottle Type}". Also Shem Drowne's Skull is listed as (Unique) now and can no longer be scrapped.
-- **ValdacilsItemSorting-Mods.esp** Vanilla weight version.
-- **ValdacilsItemSorting-Ammo.esp** Vanilla weight version. Mini Nukes now have a unique icon.
-- **ValdacilsItemSorting-Perks.esp**
-
-## Phoenix - Weapon Sorting
-
-Weapons are split up as follows:
-
-- (Generic)
-- [Heavy]
-- {Special}
-- |Melee|
-
-I removed the **Deliverer** from the dn_CommonWeapon INNR so that it doesn't get its name changed when you upgrade it. It's a unique weapon anyway.
-
-Some Nuka World weapons (Thirst Zapper, Acid Soaker, Paddle Ball, Animatronic Alien Blaster) also had the WeaponTypePistol keyword added to them so that they can show up on weapon racks.
-
-Melee weapons have VIS sorting, although I redid Ruleset #0 for my new Melee weapon tags and removed the Ruleset for material / color.
-
-**Melee:** `|Bat| Swatter of Ghoul Slaying (Barbed)`
-
-## Armor Tab Sorting
-
-With the Armor, Power Armor and Clothing Sorting modules, items will be sorted in the Armor tab as follows:
-
-- (Accessories)
-- [Outfits]
-- {Armor pieces}
-- |Power Armor|
-
-## Phoenix - Armor Sorting
-
-While VIS uses AWKCR keywords to distinguish the different types of Disciple (Metal, Strapped Spiked, Wrapped) and Pack (Bone, Stuffed) armor pieces in the dn_CommonArmor INNR, there are no distinct names for the Heavy Operator pieces. I fixed that.
-
-I also slightly tweaked the INNR so that the resulting names have the armor slot in them, eg "{LegL} Operators Heavy Left Leg" instead of "{LegL} Operators Heavy Armor" (the tags are hidden).
-
-## Phoenix - Power Armor Sorting
-
-**Vanilla:** `Jet Pack Atom Cats T-60c Helmet`
-
-**Modded:** `|PA Helmet| T-60 Helmet Mk. 3 of Cloaking (Jet Pack)`
-
-- Ruleset #0: The sorting tag (power armor piece, sort by slot).
-- Ruleset #1: The type of power armor (T-60, X-01, etc).
-- Ruleset #2: The armor piece in question (torso, helmet, etc).
-- Ruleset #3: The upgrade level (used to be different for all PAs).
-- Ruleset #4: The legendary effect if the item is legendary.
-- Ruleset #5: The additional enhancement (like Bracers or Databased).
-
-In the ArmorBySlot override, I discovered that while there are several INNR lists for power armor, they are identical. I pointed all power armor sets at the primary **dn_PowerArmor** list and disregarded the other ones. I also replicated keywords that AWKCR added for four paint jobs that were missing in the original game, renamed "Raider Power > Raider" and "Overboss Power > Power" as well as added the piece to the name "X-01 Mk. 1 > X-01 Left Arm Mk. 1".
-
-The naming scheme is essentially the one from VIS with some small tweaks. I added Ruleset #2 and removed the space (Mk.1 > Mk. 1) in Ruleset #3. I also removed Ruleset #6 which added tags based on the material because this will later be covered by PAMAP.
-
-## Phoenix - Cosmetics Sorting
-
-Assigning tags through the dn_Clothes INNR is unfortunately fairly unreliable, I have added the tags manually to each piece of clothing or apparel. I am using the same categories as VIS. The tags are:
-
-
-| Acessories  | Outfits     | Faction-Specific |
-| ----------- | ----------- | --------------   |
-| (Hat)       | [Casual]    | [Military]       |
-| (Eyewear)   | [Dapper]    | [Raider]         |
-| (Mask)      | [Dress]     | [Vault Tec]      |
-| (Bandana)   | [Rugged]    | [BOS]            |
-| (Bandolier) | [Skimpy]    | [Railroad]       |
-| (Ring)      | [Skimpy]    | [Minutemen]      |
-| (Dog)       | [Biosuit]   | [Institute]      |
-|             |             | [COA]            |
-|             |             | [Diamond City]   |
-|             |             | [Super Mutant]   |
-
-## Custom DEF_INV_TAGS
-
-- Added many new tags for the custom sorting modules.
-- Set `hidetag` for armor / power armor pieces and weapons to 'true'.
+- Custom DEF_INV_TAGS xml
 
 ![separator](/Media/Separator.png)
 
@@ -222,10 +130,15 @@ Since I did not want to include AWKCR with all its feature creep, I initially th
 - Phoenix - Simple Crafting Stations
 - [Simple Immersive Chem Benches for Crafting](https://www.nexusmods.com/fallout4/mods/44691)
 
-### Patches
+### Integration
 
-- **Workshop Framework:** Disables non-VIS holotape. Moves VIS holotape to the MOD CONFIG menu.
+The Integration plugin is a unified patch that changes the category keyword for all relevant, mod-added items. When necessary, I also disabled redundant recipes and removed crafting requirements for any mod configuration holotapes.
+
+- **Workshop Framework:** Disabled non-VIS holotape. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
+- **Transfer Settlements:** Moved holotape to the MOD CONFIG menu. No longer requires scrap to craft.
+- **Settlement Menu Manager:** Disabled non-VIS holotape. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
 - **True Storms:** Moved both holotapes to the MOD CONFIG menu.
+- **Restore Power Armor Frame:** Moved holotape to the MOD CONFIG menu. No longer requires scrap to craft.
 
 ![separator](/Media/Separator.png)
 
@@ -358,7 +271,7 @@ This is completely optional. LUTs affect the overall colours without impacting p
 
 ![separator](/Media/Separator.png)
 
-# Body & Skin
+# Body and Skin
 
 - [Caliente's Beautiful Bodies Enhancer (CBBE)](https://www.nexusmods.com/fallout4/mods/15), Nevernude option with CBBE Reduced for dismemberment and the vanilla-shape body. Merged CBBE Reduced into the main file.
 - [Skeletal Adjustments for CBBE](https://www.nexusmods.com/fallout4/mods/39006)
@@ -368,10 +281,23 @@ This is completely optional. LUTs affect the overall colours without impacting p
 
 ![separator](/Media/Separator.png)
 
+# Character Creation
+
+- [Starlight Eyes](https://www.nexusmods.com/fallout4/mods/6213)
+- [CC's Improved Hair Colours](https://www.nexusmods.com/fallout4/mods/18287), selected Dark Eyebrows in the FOMOD.
+- [Pony Hairstyles by Azar](https://www.nexusmods.com/fallout4/mods/8126)
+- [Lots More Female Hairstyles](https://www.nexusmods.com/fallout4/mods/10543)
+- [Lots More Male Hairstyles](https://www.nexusmods.com/fallout4/mods/10695)
+- [Lots More Facial Hair](https://www.nexusmods.com/fallout4/mods/10746)
+- [THBrows](https://www.nexusmods.com/fallout4/mods/6186)
+
+![separator](/Media/Separator.png)
+
 # Overhauls
 
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
 - [EBF UFO4P Compatibility Fix](https://www.nexusmods.com/fallout4/mods/43409)
+- [Better Settlers](https://www.nexusmods.com/fallout4/mods/4772/?), default options selected in the FOMOD (no changed gender ratio, mortality, etc.) Merged records from the NoLollygagging plugin into the main plugin and deleted it.
 
 ![separator](/Media/Separator.png)
 

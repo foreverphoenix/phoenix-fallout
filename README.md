@@ -7,8 +7,10 @@ Phoenix: Fallout is a Wabbajack mod list for Fallout 4 with an emphasis on enhan
 ## Features
 
 -  Moderately improved visuals while retaining a high frame rate.
+-  Adventure with Dogmeat and one other companion as originally intended by Bethesda.
 -  Custom file edits and patches for a coherent experience.
 -  VIS-based sorting overhaul with a custom keywords resource.
+-  Simple implementation of crafting stations with support for included mods.
 -  Detailed instructions for the initial setup as well as ingame configuration.
 
 ## Not included
