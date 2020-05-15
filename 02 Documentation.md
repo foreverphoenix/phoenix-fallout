@@ -19,8 +19,11 @@
 - [Retextures](#retextures)
 - [Body and Skin](#body-and-skin)
 - [Appearance](#appearance)
-- [Overhauls](#overhauls)
+- [NPC Overhauls](#npc-overhauls)
+- [Gameplay](#gameplay)
+- [Non-Player Characters](#non-player-characters)
 - [Power Armor](#power-armor)
+- [Quests](#quests)
 - [Settlements](#settlements)
 - [Animations](#animations)
 - [Sound Effects](#sound-effects)
@@ -86,24 +89,7 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 - [Mod Configuration Menu](https://www.nexusmods.com/fallout4/mods/21497) implements MCM functionality in Fallout 4, used for customisation by many mods.
 - [Canary Save File Monitor](https://www.nexusmods.com/fallout4/mods/44949) can detect data loss in saves for supported mods.
 - [Better Console](https://www.nexusmods.com/fallout4/mods/26582) mostly helps me with figuring out issues ingame by allowing me to check an object's form ID.
-- [Console Commands] is a custom plugin that loads an INI file which in turn fires a BAT file upon loading a save game. The BAT contains the following lines (credits to [BiRaitBec](https://www.nexusmods.com/fallout4/mods/23556) for most of them):
-  - `gr quality 3` decreased godrays performance impact
-  - `gr grid 8` decreased godrays performance impact
-  - `gr scale .4` decreased godrays performance impact
-  - `gr maxcascade 2` decreased godrays performance impact
-  - `cl rim .002` less rim lighting
-  - `setgs iTerminalDisplayRate 600` faster terminal display speed (10x)
-  - `setgs fWorkshopWireMaxLength 2200` longer power lines
-  - `setgs fGunShellLifetime 150` bullet shells are visible for longer
-  - `setgs fGunShellCameraDistance 12800` bullet shells are visible for longer
-  - `setgs iDebrisMaxCount 375` bullet shells are visible for longer
-  - `setgs iHoursToRespawnCell 720` longer area respawn
-  - `setgs iHoursToRespawnCellCleared 2160` longer area respawn
-  - `setgs iHoursToClearCorpses 10` longer area respawn
-  - `setgs iRemoveExcessDeadComplexCount 50` less dead actors at once
-  - `setgs iRemoveExcessDeadCount 50` less dead actors at once
-  - `setgs iRemoveExcessDeadComplexTotalActorCount 65` less dead actors at once
-  - `setgs iRemoveExcessDeadTotalActorCount 50` less dead actors at once
+- [Console Commands](/Custom%20Files/Console%20Commands/README.md), custom file.
 
 ![separator](/Media/Separator.png)
 
@@ -168,10 +154,11 @@ Since I did not want to include AWKCR with all its feature creep, I initially th
 
 The Integration plugin is a unified patch that changes the category keyword for all relevant, mod-added items. When necessary, I also disabled redundant recipes and removed crafting requirements for any mod configuration holotapes.
 
-- **Workshop Framework:** Disabled non-VIS holotape. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
+- **Workshop Framework:** Disabled non-VIS holotape crafting. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
 - **Transfer Settlements:** Moved holotape to the MOD CONFIG menu. No longer requires scrap to craft.
-- **Settlement Menu Manager:** Disabled non-VIS holotape. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
+- **Settlement Menu Manager:** Disabled non-VIS holotape crafting. Moved VIS holotape to the MOD CONFIG menu. No longer requires scrap to craft.
 - **True Storms:** Moved both holotapes to the MOD CONFIG menu.
+- **NPCs Travel:** Moved config holotape to the MOD CONFIG menu.
 - **Restore Power Armor Frame:** Moved holotape to the MOD CONFIG menu. No longer requires scrap to craft.
 
 ![separator](/Media/Separator.png)
@@ -204,6 +191,7 @@ The Integration plugin is a unified patch that changes the category keyword for 
 # Tweaks
 
 - [Easy Hacking](https://www.nexusmods.com/fallout4/mods/266), ESL-ified the plugin.
+- [No Crafting Experience](https://www.nexusmods.com/fallout4/mods/15203), Automatron version, ESL-ified the plugin.
 - [Hush Dogmeat - No Sounds While Sneaking](https://www.nexusmods.com/fallout4/mods/3855), ESL-ified the plugin.
 - [Docile Radstags](https://www.nexusmods.com/fallout4/mods/3208), ESL-ified the plugin.
 - [Vertibird Jump](https://www.nexusmods.com/fallout4/mods/20190)
@@ -218,6 +206,11 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Armor Workbench No Fire Barrel](https://www.nexusmods.com/fallout4/mods/23199)
 - [Patch Job - Fill Those Holes](https://www.nexusmods.com/fallout4/mods/1934)
 - [Randomized Diamond City GUard Outfits](https://www.nexusmods.com/fallout4/mods/12100/?), ESL-ified the plugin.
+- [Dismemberment Tweaks](/Custom%20Files/Dismemberment%20Tweaks/README.md), custom file.
+- [No Legendary Items from Creatures](https://www.nexusmods.com/fallout4/mods/21864), ESL-ified the plugin.
+- [Binary Speech Checks](https://www.nexusmods.com/fallout4/mods/2100), Normal Edition, ESL-ified the plugin.
+- [No Halloween Decoration](https://www.nexusmods.com/fallout4/mods/11503), forwarded PreVis edits from the UFO4P, ESL-ified the plugin.
+- [No Weapon Clutter](https://www.nexusmods.com/fallout4/mods/12825)
 
 ![separator](/Media/Separator.png)
 
@@ -387,7 +380,6 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Valkyr Female Face and Body Textures](https://www.nexusmods.com/fallout4/mods/3841)
 - [CBBE Ida Body Texture](https://www.nexusmods.com/fallout4/mods/10726)
 - [Enhanced Vanilla Bodies](https://www.nexusmods.com/fallout4/mods/22110)
-- [Classic Ghouls Replacer](https://www.nexusmods.com/fallout4/mods/40546), forwarded some UFO4P edits.
 
 ![separator](/Media/Separator.png)
 
@@ -395,12 +387,19 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 - [Starlight Eyes](https://www.nexusmods.com/fallout4/mods/6213)
 - [deLuxe Makeup](https://www.nexusmods.com/fallout4/mods/4398), both main files, merged into one mod folder.
+- [Appealing Moles](https://www.nexusmods.com/fallout4/mods/3802)
 - [Immersive Mouth and Teeth](https://www.nexusmods.com/fallout4/mods/903)
 - [Hair Tones Redux - A Hair Color Overhaul](https://www.nexusmods.com/fallout4/mods/36637), darker brows version.
 - [Pony Hairstyles by Azar](https://www.nexusmods.com/fallout4/mods/8126)
 - [Lots More Female Hairstyles](https://www.nexusmods.com/fallout4/mods/10543)
 - [Lots More Male Hairstyles](https://www.nexusmods.com/fallout4/mods/10695)
 - [Lots More Facial Hair](https://www.nexusmods.com/fallout4/mods/10746)
+  
+![separator](/Media/Separator.png)
+
+# NPC Overhauls
+
+- [FOFW Redux](https://www.nexusmods.com/fallout4/mods/9363), Vanilla AIO.
 - [Immersive Mama Murphy](https://www.nexusmods.com/fallout4/mods/25108)
 - [SeriouslySarcastic's Immersive Companions](https://www.nexusmods.com/fallout4/mods/30079)
 - [Seriously Sarcastic's Kellogg Face Overhaul](https://www.nexusmods.com/fallout4/mods/30703)
@@ -412,20 +411,38 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 ![separator](/Media/Separator.png)
 
-# Overhauls
+# Gameplay
 
 - [Pip-Boy Flashlight](https://www.nexusmods.com/fallout4/mods/10840), selected Alternate animations, the Nave Plate Pip-Boy flashlight, Maglite 300L power armor flaslight, and default light distance (no shadows) in the FOMOD.
 - [Better Companions - No Conflicts](https://www.nexusmods.com/fallout4/mods/24233)
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
 - [EBF UFO4P Compatibility Fix](https://www.nexusmods.com/fallout4/mods/43409)
-- [Better Settlers](https://www.nexusmods.com/fallout4/mods/4772/?), default options selected in the FOMOD (no changed gender ratio, mortality, etc.) Merged records from the NoLollygagging plugin into the main plugin and deleted it. Removed all new ghoul variants (they would be inconsistent with Classic Ghouls Replacer).
-- [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549)
+- [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique)
+
+![separator](/Media/Separator.png)
+
+# Non-Player Characters
+
+- [Better Settlers](https://www.nexusmods.com/fallout4/mods/4772/?), default options selected in the FOMOD (no changed gender ratio, mortality, etc) plus Vanilla Assets Extended. Merged records from the NoLollygagging plugin into the main plugin and deleted it.
+- [Settler Sandbox Expansion](https://www.nexusmods.com/fallout4/mods/20442), turned the ESL into and ESP-FE.
+- [Stationary Scavengers](https://www.nexusmods.com/fallout4/mods/17790), ESL-ified the plugin.
+- [NPCs Travel](https://www.nexusmods.com/fallout4/mods/16987/?)
 
 ![separator](/Media/Separator.png)
 
 # Power Armor
 
 - [Restore Power Armor Frames](https://www.nexusmods.com/fallout4/mods/20890)
+- [Take Your Cores](https://www.nexusmods.com/fallout4/mods/14773)
+
+![separator](/Media/Separator.png)
+
+# Quests
+
+- [Start Me Up](https://www.nexusmods.com/fallout4/mods/18946/?), Basic version.
+- [Main Quest Choices Extended](https://www.nexusmods.com/fallout4/mods/19835)
+- [Nuka World - Skip Raiding Your Own Settlements](https://www.nexusmods.com/fallout4/mods/18121), forwarded UFO4P / FDI Patch edits, ESL-ified the plugin.
+
 
 ![separator](/Media/Separator.png)
 
@@ -434,11 +451,17 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Place Everywhere](https://www.nexusmods.com/fallout4/mods/9424)
 - [Workshop Rearranged](https://www.nexusmods.com/fallout4/mods/16181), selected the following patches from the patch pack FOMOD:
   - DEF_UI + VIS: Forwarded my Empty Bottle changes.
+  - Vehicle Overhaul: Standalone patch.
+  - Lore Friendly Posters: Replacer plugin.
+- [Relight (WWE)](https://www.nexusmods.com/fallout4/mods/23454)
+- [Workshop Rearranged - Relight], custom patch, forwarded Workshop Rearranged changes to building requirements and menu categories, applied them to the new COBJs added by Relight.
 - [Scrapping Machine](https://www.nexusmods.com/fallout4/mods/35793) allows you to quickly scrap all your junk by tossing them into a repurposed washing machine. Changed the ESL plugin to ESP-FE.
 - [Lore-Friendly Posters](https://www.nexusmods.com/fallout4/mods/7145), deleted plugin.
 - [Compact Crafting](https://www.nexusmods.com/fallout4/mods/18264) adds small versions of the crafting benches. I disabled the all-purpose version as I felt it was cheesy, plus junk scrapping can be done with Scrapping Machine. The Chem stations were renamed to Crafting Workbenches for consistency with Simple Crafting Stations. The BSA was replaced with the 2K textures version.
 - [Real Troughs - New Brahmin Feeders](https://www.nexusmods.com/fallout4/mods/12945), ESL-ified the plugin.
 - [Mama Murphy's Chair Redone](https://www.nexusmods.com/fallout4/mods/24819/?), restored the quest requirement and ESL-ified the plugin.
+- [BS Defence](https://www.nexusmods.com/fallout4/mods/20137), UFO4P version.
+- [More Attackers - Get Off My Build Zone](https://www.nexusmods.com/fallout4/mods/27465), selected DLC and BS Defence support in the FOMOD.
 
 ![separator](/Media/Separator.png)
 
