@@ -23,6 +23,7 @@ This is a custom plugin that loads an INI file which in turn fires a BAT file up
 - `setgs iRemoveExcessDeadCount 50` less dead actors at once
 - `setgs iRemoveExcessDeadComplexTotalActorCount 65` less dead actors at once
 - `setgs iRemoveExcessDeadTotalActorCount 50` less dead actors at once
+- `setgs iDeathDropWeaponChance 0` prevents enemies from dropping their weapons upon death
 
 ### Replaced Mods
 
@@ -30,8 +31,13 @@ This is a custom plugin that loads an INI file which in turn fires a BAT file up
 - [Faster Terminal Displays](https://www.nexusmods.com/fallout4/mods/937)
 - [Shell Rain](https://www.nexusmods.com/fallout4/mods/870)
 - [Longer Area Respawn](https://www.nexusmods.com/fallout4/mods/1371)
+- [No Weapon Clutter](https://www.nexusmods.com/fallout4/mods/12825)
 
 ### Credits
 
 - [BiRaitBec](https://www.nexusmods.com/fallout4/mods/23556) for the idea and most of the lines.
 - [SloppyPooBag](https://www.nexusmods.com/fallout4/mods/15211) for the God Rays tweak.
+- [Puma361](https://www.nexusmods.com/fallout4/users/13815465) for  Longer Power Lines and Longer Area Respawn.
+- [OldNick](https://www.nexusmods.com/fallout4/users/443246) for Faster Terminal Displays.
+- [pauderek](https://www.nexusmods.com/fallout4/users/1739196) for Shell Rain.
+- [SmithyPete](https://www.nexusmods.com/fallout4/users/34353495) for the No Weapon Clutter tweak.

@@ -41,10 +41,14 @@ This page serves two purposes: One, to inform the user about the contents of thi
 
 ### My Tools
 
-- SSEEdit
+- [FO4Edit](https://www.nexusmods.com/fallout4/mods/2737)
 - zEdit
-- Bethesda Archive Extractor
-- [XWM Music Converter](https://www.nexusmods.com/fallout4/mods/24888)
+- [Bethesda Archive Extractor](https://www.nexusmods.com/fallout4/mods/78)
+- [Fallout 4 Texture Compressor](https://www.nexusmods.com/fallout4/mods/25691)
+- [Material Editor](https://www.nexusmods.com/fallout4/mods/3635)
+- [MultiXWM](https://www.nexusmods.com/fallout4/mods/3663)
+- [Champollion Pex to Papyrus Decompiler](https://www.nexusmods.com/fallout4/mods/3742)
+- [FOMOD Creation Tool](https://www.nexusmods.com/fallout4/mods/6821)
 
 ### Preparations
 
@@ -185,6 +189,7 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Marine Wet Suit Material Fix](https://www.nexusmods.com/fallout4/mods/19843)
 - [Decayed Army Fatigues Fix](https://www.nexusmods.com/fallout4/mods/43089), 2K version.
 - [Valentine Jaw Sync](https://www.nexusmods.com/fallout4/mods/42985)
+- [Molerat Disease Fix](https://www.nexusmods.com/fallout4/mods/41597)
 
 ![separator](/Media/Separator.png)
 
@@ -204,13 +209,13 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Depth of Field (DOF) Removal](https://www.nexusmods.com/fallout4/mods/4172/?), Keep Inspection version, ESL-ified the plugin.
 - [Not So Bright Pins](https://www.nexusmods.com/fallout4/mods/35097)
 - [Armor Workbench No Fire Barrel](https://www.nexusmods.com/fallout4/mods/23199)
-- [Patch Job - Fill Those Holes](https://www.nexusmods.com/fallout4/mods/1934)
 - [Randomized Diamond City GUard Outfits](https://www.nexusmods.com/fallout4/mods/12100/?), ESL-ified the plugin.
 - [Dismemberment Tweaks](/Custom%20Files/Dismemberment%20Tweaks/README.md), custom file.
 - [No Legendary Items from Creatures](https://www.nexusmods.com/fallout4/mods/21864), ESL-ified the plugin.
 - [Binary Speech Checks](https://www.nexusmods.com/fallout4/mods/2100), Normal Edition, ESL-ified the plugin.
 - [No Halloween Decoration](https://www.nexusmods.com/fallout4/mods/11503), forwarded PreVis edits from the UFO4P, ESL-ified the plugin.
-- [No Weapon Clutter](https://www.nexusmods.com/fallout4/mods/12825)
+- [Corpse Collision](https://www.nexusmods.com/fallout4/mods/37133), turned the ESL into an ESP-FE.
+- [No Lollygagging Settlers](https://www.nexusmods.com/fallout4/mods/10461), ESL-ified the plugin.
 
 ![separator](/Media/Separator.png)
 
@@ -218,7 +223,8 @@ The Integration plugin is a unified patch that changes the category keyword for 
 
 - [Full Dialogue Interface](https://www.nexusmods.com/fallout4/mods/1235), Horizontal Brackets without numbers version.
 - [String Patches for Full Dialogue Interface](https://www.nexusmods.com/fallout4/mods/41659), ESL-ified the plugin.
-- [Immersive HUD](https://www.nexusmods.com/fallout4/mods/20830) 
+- [Immersive HUD](https://www.nexusmods.com/fallout4/mods/20830)
+- [Power Armor HUD - paHUD](https://www.nexusmods.com/fallout4/mods/21622)
 - [Holotime - HUD Clock Widget](https://www.nexusmods.com/fallout4/mods/20300)
 - [Improved Map with Visible Roads](https://www.nexusmods.com/fallout4/mods/1215), chose default options for all three maps (Commonwealth, Far Harbor, Nuka World).
 - [Small Map Markers](https://www.nexusmods.com/fallout4/mods/13400), selected 75% size option.
@@ -295,12 +301,14 @@ This is completely optional. LUTs affect the overall colours without impacting p
 ### Main
 
 - [Langley's HD Texture Workshop (Packed)](https://www.nexusmods.com/fallout4/mods/23500), ESL-ified the ESP.
+- [Patch Job - Fill Those Holes](https://www.nexusmods.com/fallout4/mods/1934)
 - [Better Settlements and Camps 2](https://www.nexusmods.com/fallout4/mods/2461), 2K version.
 - [Haul'd Out](https://www.nexusmods.com/fallout4/mods/5086), Pier 2K, Warehouse 2K, Warehouse NoHolesMetal 2K. All files merged into one folder.
 - [Fallout 4 Ultimate Window Overhaul](https://www.nexusmods.com/fallout4/mods/43458)
 - [Burly Bunkers 4K](https://www.nexusmods.com/fallout4/mods/44236), turned the ESL plugin into an ESP-FE.
 - [Gritty Subway Stations 4K](https://www.nexusmods.com/fallout4/mods/36157), ESL-ified the ESP.
 - [Shack Walls Redone](https://www.nexusmods.com/fallout4/mods/2174), Dull 2K version.
+- [NMC's Sanctuary Bridge](https://www.nexusmods.com/fallout4/mods/28138), 2K regular version.
 - [Really Red Rocket](https://www.nexusmods.com/fallout4/mods/9870), 2K Worn version.
 - [Vehicle Overhaul](https://www.nexusmods.com/fallout4/mods/18732)
 - [Spiff's Military Vehicles Retextured](https://www.nexusmods.com/fallout4/mods/43721), turned the ESL plugin into an ESP-FE.
@@ -316,13 +324,19 @@ This is completely optional. LUTs affect the overall colours without impacting p
 - [Components Redone](https://www.nexusmods.com/fallout4/mods/25188), 1K version and copper fix, selected Vanilla Weights VIS in the FOMOD, ESL-ified the plugin.
 - [Better Ammo Boxes](https://www.nexusmods.com/fallout4/mods/8087), all three main files, merged together into one mod folder, selected 1K variants in the FOMOD.
 - [Retextured First Aid Kits](https://www.nexusmods.com/fallout4/mods/16841), v1.
+- [PatrickJr's Redone Bobbleheads](https://www.nexusmods.com/fallout4/mods/12062)
+- [Nuka Recipe Book 2K Retextures](https://www.nexusmods.com/fallout4/mods/32292), ESL version, turned the ESL into an ESP-FE.
+- [Lockpicking Retexture](https://www.nexusmods.com/fallout4/mods/19935)
 
 ### Apparel 
 
 - [Proto Vault Suit](https://www.nexusmods.com/fallout4/mods/2187/?), vanilla replacer.
 - [Hazmat Suit Redux](https://www.nexusmods.com/fallout4/mods/31799), forwarded sorting tags and ESL-ified the plugin.
+- [Combat Armor No Star Decal](https://www.nexusmods.com/fallout4/mods/524/?)
 - [Robot Armor Retextured](https://www.nexusmods.com/fallout4/mods/12187), 2K black version.
 - [Mechanist Armor Retextured](https://www.nexusmods.com/fallout4/mods/13053), 2K version.
+- [Marine Helmet with Tactical Hood](https://www.nexusmods.com/fallout4/mods/14340)
+- [Piper's Coat HR](https://www.nexusmods.com/fallout4/mods/14010), downsized coat textures to 2K.
 - [Better House Dress Shoes](https://www.nexusmods.com/fallout4/mods/36704), 2K version.
 - [Eyewear and Mask Retexture](https://www.nexusmods.com/fallout4/mods/5021), removed Patrolman sunglasses edit (feature creep) and ESL-ified the plugin.
 
@@ -355,6 +369,9 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Broadsider HD](https://www.nexusmods.com/fallout4/mods/31611)
 - [The Delightful Deliverer](https://www.nexusmods.com/fallout4/mods/24813)
 - [The Radical Ripper](https://www.nexusmods.com/fallout4/mods/24606)
+- [Grognak's Axe](https://www.nexusmods.com/fallout4/mods/38644), downsized textures to 2K.
+- [Kremvh's Tooth Replacer](https://www.nexusmods.com/fallout4/mods/6960), downsized textures to 2K.
+- [M26 Framentation Grenade Replacer](https://www.nexusmods.com/fallout4/mods/37749), compressed and downsized textures to 1K.
 - [Better Recon Scope](https://www.nexusmods.com/fallout4/mods/554)
 
 ### Creatures
@@ -418,12 +435,13 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
 - [EBF UFO4P Compatibility Fix](https://www.nexusmods.com/fallout4/mods/43409)
 - [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique)
+- [Auto Gamepad Switch](https://www.nexusmods.com/fallout4/mods/23136)
 
 ![separator](/Media/Separator.png)
 
 # Non-Player Characters
 
-- [Better Settlers](https://www.nexusmods.com/fallout4/mods/4772/?), default options selected in the FOMOD (no changed gender ratio, mortality, etc) plus Vanilla Assets Extended. Merged records from the NoLollygagging plugin into the main plugin and deleted it.
+- [Better Settlers](https://www.nexusmods.com/fallout4/mods/4772/?), default FOMOD options (no changes to gender ratio, mortality, etc) plus Vanilla Assets Extended.
 - [Settler Sandbox Expansion](https://www.nexusmods.com/fallout4/mods/20442), turned the ESL into and ESP-FE.
 - [Stationary Scavengers](https://www.nexusmods.com/fallout4/mods/17790), ESL-ified the plugin.
 - [NPCs Travel](https://www.nexusmods.com/fallout4/mods/16987/?)
@@ -478,6 +496,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 - [Reverb and Ambience Overhaul](https://www.nexusmods.com/fallout4/mods/10189/?)
 - [LOST Audio Tweaks](https://www.nexusmods.com/fallout4/mods/38448)
+- [Project Reality Footsteps](https://www.nexusmods.com/fallout4/mods/35904), BA2 version, ESL-ified the ESP.
 - [PAMS - Power Armor Movement Sounds](https://www.nexusmods.com/fallout4/mods/1544), light version plus Louder High Landing.
 - [Quieter Settlements](https://www.nexusmods.com/fallout4/mods/2819), recommended AIO, ESL-ified the plugin.
 
