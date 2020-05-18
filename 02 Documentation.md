@@ -105,7 +105,7 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 - [Workshop Framework](https://www.nexusmods.com/fallout4/mods/35004) improves upon the settlement system with rewritten scripts and many new features.
 - [Transfer Settlements - Shareable Settlement Blueprints](https://www.nexusmods.com/fallout4/mods/22442) enables import and export of settlement builds.
 - [Settlement Menu Manager](https://www.nexusmods.com/fallout4/mods/24204) offers a simple, script-based solution for implementing new workshop menus.
-- [Phoenix - Keywords] is a heavily stripped-down, custom AWKCR replacer, required for my sorting modules.
+- [Phoenix - Keywords](Custom%20Files/Phoenix%20Sorting/README.md) is a heavily stripped-down, custom AWKCR replacer, required for my sorting modules.
 
 ![separator](/Media/Separator.png)
 
@@ -450,14 +450,19 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # Power Armor
 
+### Gameplay
+
 - [Restore Power Armor Frames](https://www.nexusmods.com/fallout4/mods/20890)
 - [Take Your Cores](https://www.nexusmods.com/fallout4/mods/14773)
 
 ### Power Armor Paint Jobs
 
+Paints and materials are now two different types of mods. Paints are purely cosmetic, cheap to apply, and all power armors have access to more paint jobs that can be applied to them.
+
 - [Consistent Power Armor Overhaul](https://www.nexusmods.com/fallout4/mods/11234), deleted textures folder (covered by PARE).
 - [Power Armor Materials and Paints (PAMAP)](https://www.nexusmods.com/fallout4/mods/4619), with DLC support but no Additional Materials.
 - [Minutemen Paint Job](https://www.nexusmods.com/fallout4/mods/28029), deleted textures.bsa (covered by PARE).
+- [Phoenix - Power Armor Paint Jobs](/Custom%20Files/PA%20Paint%20Jobs/README.md)
 
 ### Retextures
 
@@ -473,7 +478,6 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Start Me Up](https://www.nexusmods.com/fallout4/mods/18946/?), Basic version.
 - [Main Quest Choices Extended](https://www.nexusmods.com/fallout4/mods/19835)
 - [Nuka World - Skip Raiding Your Own Settlements](https://www.nexusmods.com/fallout4/mods/18121), forwarded UFO4P / FDI Patch edits, ESL-ified the plugin.
-
 
 ![separator](/Media/Separator.png)
 
