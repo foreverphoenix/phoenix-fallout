@@ -462,7 +462,7 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 - [Consistent Power Armor Overhaul](https://www.nexusmods.com/fallout4/mods/11234), deleted textures folder (covered by PARE).
 - [Power Armor Materials and Paints (PAMAP)](https://www.nexusmods.com/fallout4/mods/4619), with DLC support but no Additional Materials.
 - [Minutemen Paint Job](https://www.nexusmods.com/fallout4/mods/28029), deleted textures.bsa (covered by PARE).
-- [Phoenix - Power Armor Paint Jobs](/Custom%20Files/PA%20Paint%20Jobs/README.md)
+- [Phoenix - Power Armor Paint Jobs](/Custom%20Files/PA%20Paint%20Jobs/README.md), custom file.
 
 ### Retextures
 
