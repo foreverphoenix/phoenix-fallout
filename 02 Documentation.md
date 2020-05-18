@@ -489,7 +489,7 @@ Paints and materials are now two different types of mods. Paints are purely cosm
   - Vehicle Overhaul: Standalone patch.
   - Lore Friendly Posters: Replacer plugin.
 - [Relight (WWE)](https://www.nexusmods.com/fallout4/mods/23454)
-- [Workshop Rearranged - Relight], custom patch, forwarded Workshop Rearranged changes to building requirements and menu categories, applied them to the new COBJs added by Relight.
+- [Workshop Rearranged - Relight](/Custom%20Files/Custom%20Patches/README.md), custom patch.
 - [Scrapping Machine](https://www.nexusmods.com/fallout4/mods/35793) allows you to quickly scrap all your junk by tossing them into a repurposed washing machine. Changed the ESL plugin to ESP-FE.
 - [Lore-Friendly Posters](https://www.nexusmods.com/fallout4/mods/7145), deleted plugin.
 - [Compact Crafting](https://www.nexusmods.com/fallout4/mods/18264) adds small versions of the crafting benches. I disabled the all-purpose version as I felt it was cheesy, plus junk scrapping can be done with Scrapping Machine. The Chem stations were renamed to Crafting Workbenches for consistency with Simple Crafting Stations. The BSA was replaced with the 2K textures version.
@@ -526,6 +526,7 @@ Fallout Suite, Bleak Beauty and Musical Lore add many, *many* new tracks of musi
 - [Fallout Suite - Soundtrack Extension for Fallout 4](https://www.nexusmods.com/fallout4/mods/15870), ESL-ified the plugin and removed one ITM.
 - [Bleak Beauty - A Fallout 4 Fanmade OST](https://www.nexusmods.com/fallout4/mods/9663),ESL-ified the plugin.
 - [Musical Lore - Wasteland Edition](https://www.nexusmods.com/fallout4/mods/14531),ESL-ified the plugin.
+- [Phoenix - Music Patch](/Custom%20Files/Custom%20Patches/README.md), custom file.
 - [Elvani's Track Pack for Diamond City Radio](https://www.nexusmods.com/fallout4/mods/5467), plugin with fixed audio levels merged into the main mod folder.
 - [More Where That Came From - Diamond City Radio Edition](https://www.nexusmods.com/fallout4/mods/637), forwarded new Output Model from RAO into the plugin.
 
@@ -540,3 +541,4 @@ Fallout Suite, Bleak Beauty and Musical Lore add many, *many* new tracks of musi
 # Late Loader
 
 - [Boston FPS Fix](https://www.nexusmods.com/fallout4/mods/26286)
+- [Conflict Resolution Patch](Custom%20Files/Custom%20Patches/README.md), custom file.
