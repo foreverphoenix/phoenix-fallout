@@ -104,7 +104,7 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 - [Workshop Framework](https://www.nexusmods.com/fallout4/mods/35004) improves upon the settlement system with rewritten scripts and many new features.
 - [Transfer Settlements - Shareable Settlement Blueprints](https://www.nexusmods.com/fallout4/mods/22442) enables import and export of settlement builds.
 - [Settlement Menu Manager](https://www.nexusmods.com/fallout4/mods/24204) offers a simple, script-based solution for implementing new workshop menus.
-- [Phoenix - Keywords](Custom%20Files/Phoenix%20Sorting/README.md) is a heavily stripped-down, custom AWKCR replacer, required for my sorting modules.
+- [Phoenix - Keywords](/Custom%20Files/Phoenix%20Keywords/README.md) is a heavily stripped-down, custom AWKCR replacer, required for my sorting modules.
 
 ![separator](/Media/Separator.png)
 

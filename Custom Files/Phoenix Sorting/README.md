@@ -61,6 +61,7 @@ All plugins were edited in some way. I added DLC support and forwarded UFO4P edi
 
 - The new ICONLIBS2 contains many additional icons for unique or rare weapons which were never used by VIS. I added more custom tags to utilise many of those icons.
 - The Deliverer was removed from the dn_CommonWeapon INNR so that it doesn't get its name changed when you upgrade it. The weapon is unique anyway.
+- Tagged the Flare Gun manually because it just didn't get applied through the INNR.
 - Edited the names applied to unique leveled items so that they are consistent with my new tags.
 
 ### Naming - dn_CommonGun
