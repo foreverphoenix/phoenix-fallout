@@ -453,6 +453,19 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Restore Power Armor Frames](https://www.nexusmods.com/fallout4/mods/20890)
 - [Take Your Cores](https://www.nexusmods.com/fallout4/mods/14773)
 
+### Power Armor Paint Jobs
+
+- [Consistent Power Armor Overhaul](https://www.nexusmods.com/fallout4/mods/11234), deleted textures folder (covered by PARE).
+- [Power Armor Materials and Paints (PAMAP)](https://www.nexusmods.com/fallout4/mods/4619), with DLC support but no Additional Materials.
+- [Minutemen Paint Job](https://www.nexusmods.com/fallout4/mods/28029), deleted textures.bsa (covered by PARE).
+
+### Retextures
+
+- [Power Armors Redone](https://www.nexusmods.com/fallout4/mods/27917), main file and X-01 helmet fix.
+- [Power Armors Redone Extended](https://www.nexusmods.com/fallout4/mods/28033), CPAO and Minutemen Paint Job files.
+- [Power Armor Jetpack HD](https://www.nexusmods.com/fallout4/mods/30796), 2K version.
+- [Power Armor Frame UHD](https://www.nexusmods.com/fallout4/mods/39711)
+
 ![separator](/Media/Separator.png)
 
 # Quests
