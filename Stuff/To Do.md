@@ -5,3 +5,4 @@
 - Replace main menu theme with a track from the music overhauls.
 - Allow wearing of armor on top of Kellog's outfit and add the ballistic weave keyword.
 - Downsize the Nuka Recipe Book textures to 1k max.
+- Armored Clothing module: Needs tags in INNR and AP keywords. Allow some outfits to be moddable.

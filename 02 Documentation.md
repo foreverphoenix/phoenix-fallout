@@ -25,7 +25,6 @@
 - [Power Armor](#power-armor)
 - [Quests](#quests)
 - [Settlements](#settlements)
-- [Animations](#animations)
 - [Sound Effects](#sound-effects)
 - [Music](#music)
 - [Player Voice](#player-voice)
@@ -111,37 +110,15 @@ Not all mods can be installed into the **Data** folder or be handled by Mod Orga
 
 # Item Sorting
 
-- Phoenix - Weapon Sorting
-- Phoenix - Cosmetic Sorting
-- Phoenix - Armor Sorting
-- Phoenix - Power Armor Sorting
-- [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) is my preferred sorting overhaul, although I heavily customised all files. Included modules:
-  - Explosives
-  - Aid
-  - Misc
-  - Junk
-  - Mods
-  - Ammo
-  - Perks
-  - Config Files
-- [Updated IconLibs2 for DEF_UI](https://www.nexusmods.com/fallout4/mods/13957) contains new and improved icons for DEF_UI. Some of the new icons are used in my tweaked version of VIS.
-- Custom DEF_INV_TAGS xml
+VIS is my preferred sorting overhaul, although I heavily customised all files and created derivatives for Weapon, Cosmetic, Armor and Power Armor sorting that depend on my Keywords ESM instead of AWKCR. Details can be found [here](/Custom%20Files/Phoenix%20Sorting/README.md). All plugins were ESL-ified since they exclusively edit vanilla records.
 
-### VIS - Junk
-
-- Vanilla weight version with DEF_UI support.
-- Forwarded UFO4P edits.
-- Includes Not Junk changes, however the following items were turned into scrap again:
-  - Cigar
-  - Cigarette
-  - Lit Cigar
-  - Lit Cigarette
-  - Lit Stogie
-  - Stogie
-- Added DEF_UI tags for the DLC scrap items.
-- Some non-quest items with zero weight now have 0.1 weight (i.e. pens).
-- Empty bottles are now prefixed: `Empty x Bottle{{{Scrap}}}`.
-- Shem Drowne's skull is now unique and unscrappable.
+- [Phoenix - Weapon Sorting](/Custom%20Files/Phoenix%20Sorting/README.md), custom file.
+- [Phoenix - Cosmetic Sorting](/Custom%20Files/Phoenix%20Sorting/README.md), custom file.
+- [Phoenix - Armor Sorting](/Custom%20Files/Phoenix%20Sorting/README.md), custom file.
+- [Phoenix - Power Armor Sorting](/Custom%20Files/Phoenix%20Sorting/README.md), custom file.
+- [Valdacil's Item Sorting](https://www.nexusmods.com/fallout4/mods/3877) 
+- [Updated IconLibs2 for DEF_UI](https://www.nexusmods.com/fallout4/mods/13957)
+- [Custom DEF_INV_TAGS xml](/Custom%20Files/Phoenix%20Sorting/README.md), custom file.
 
 ![separator](/Media/Separator.png)
 
@@ -172,6 +149,7 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Faster Workshop (Workshop Lag Fix)](https://www.nexusmods.com/fallout4/mods/35382)
 - [Crafting Highlight Fix](https://www.nexusmods.com/fallout4/mods/27479)
 - [Console Name Fix](https://www.nexusmods.com/fallout4/mods/25568)
+- [Grab the Damn Mag](https://www.nexusmods.com/fallout4/mods/17299)
 - [Fixed Gobo Effects](https://www.nexusmods.com/fallout4/mods/27445)
 - [Wetness Shader Fix](https://www.nexusmods.com/fallout4/mods/23389)
 - [Fixed Alpha Maps](https://www.nexusmods.com/fallout4/mods/28974), ESL-ified the plugin.
@@ -216,6 +194,7 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [No Halloween Decoration](https://www.nexusmods.com/fallout4/mods/11503), forwarded PreVis edits from the UFO4P, ESL-ified the plugin.
 - [Corpse Collision](https://www.nexusmods.com/fallout4/mods/37133), turned the ESL into an ESP-FE.
 - [No Lollygagging Settlers](https://www.nexusmods.com/fallout4/mods/10461), ESL-ified the plugin.
+- [Better Female Sitting Animation](https://www.nexusmods.com/fallout4/mods/3426)
 
 ![separator](/Media/Separator.png)
 
@@ -434,6 +413,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Better Companions - No Conflicts](https://www.nexusmods.com/fallout4/mods/24233)
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
 - [EBF UFO4P Compatibility Fix](https://www.nexusmods.com/fallout4/mods/43409)
+- [Automatically Lowered Weapons](https://www.nexusmods.com/fallout4/mods/20093)
 - [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique)
 - [Auto Gamepad Switch](https://www.nexusmods.com/fallout4/mods/23136)
 
@@ -452,6 +432,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 ### Gameplay
 
+- [Power Armor Animation Changes](https://www.nexusmods.com/fallout4/mods/4408)
 - [Restore Power Armor Frames](https://www.nexusmods.com/fallout4/mods/20890)
 - [Take Your Cores](https://www.nexusmods.com/fallout4/mods/14773)
 
@@ -497,15 +478,6 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 - [Mama Murphy's Chair Redone](https://www.nexusmods.com/fallout4/mods/24819/?), restored the quest requirement and ESL-ified the plugin.
 - [BS Defence](https://www.nexusmods.com/fallout4/mods/20137), UFO4P version.
 - [More Attackers - Get Off My Build Zone](https://www.nexusmods.com/fallout4/mods/27465), selected DLC and BS Defence support in the FOMOD.
-
-![separator](/Media/Separator.png)
-
-# Animations
-
-- [Automatically Lowered Weapons](https://www.nexusmods.com/fallout4/mods/20093)
-- [Grab the Damn Mag](https://www.nexusmods.com/fallout4/mods/17299)
-- [Power Armor Animation Changes](https://www.nexusmods.com/fallout4/mods/4408)
-- [Better Female Sitting Animation](https://www.nexusmods.com/fallout4/mods/3426)
 
 ![separator](/Media/Separator.png)
 
