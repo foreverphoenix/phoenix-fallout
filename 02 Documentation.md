@@ -21,6 +21,7 @@
 - [Appearance](#appearance)
 - [NPC Overhauls](#npc-overhauls)
 - [Gameplay](#gameplay)
+- [Balancing](#balancing)
 - [Non-Player Characters](#non-player-characters)
 - [Power Armor](#power-armor)
 - [Quests](#quests)
@@ -298,14 +299,16 @@ This is completely optional. LUTs affect the overall colours without impacting p
 ### Clutter
 
 - [Chem Redux](https://www.nexusmods.com/fallout4/mods/2099), No Glow version, forwarded UFO4P and VIS changes, ESL-ified the plugin.
+- [Grey Tortoise Cigarettes Redux](https://www.nexusmods.com/fallout4/mods/28204)
 - [Bottles Labels Overhaul](https://www.nexusmods.com/fallout4/mods/1500), 1K version, no water bottles.
 - [Retextured Water - by Ben Ephla](https://www.nexusmods.com/fallout4/mods/20399)
 - [Components Redone](https://www.nexusmods.com/fallout4/mods/25188), 1K version and copper fix, selected Vanilla Weights VIS in the FOMOD, ESL-ified the plugin.
 - [Better Ammo Boxes](https://www.nexusmods.com/fallout4/mods/8087), all three main files, merged together into one mod folder, selected 1K variants in the FOMOD.
 - [Retextured First Aid Kits](https://www.nexusmods.com/fallout4/mods/16841), v1.
 - [PatrickJr's Redone Bobbleheads](https://www.nexusmods.com/fallout4/mods/12062)
+- [Robot Model Kit 2K Retextures](https://www.nexusmods.com/fallout4/mods/24189)
 - [Nuka Recipe Book 2K Retextures](https://www.nexusmods.com/fallout4/mods/32292), ESL version, turned the ESL into an ESP-FE.
-- [Lockpicking Retexture](https://www.nexusmods.com/fallout4/mods/19935)
+- [Lockpicking Retexture](https://www.nexusmods.com/fallout4/mods/19935), ESL version, turned the ESL into an ESP-FE.
 
 ### Apparel 
 
@@ -355,6 +358,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 ### Creatures
 
+- [Delightful Dead Fish](https://www.nexusmods.com/fallout4/mods/14726), Unhealthy version.
 - [Fallout 3 / NV Feral Ghouls Replacer](https://www.nexusmods.com/fallout4/mods/39290), ESL-ified the plugin.
 - [Retextured Super Mutants](https://www.nexusmods.com/fallout4/mods/24514)
 - [CC's UHD Bloatflies](https://www.nexusmods.com/fallout4/mods/36484), 2K version.
@@ -395,6 +399,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # NPC Overhauls
 
+- [Valentine Reborn](https://www.nexusmods.com/fallout4/mods/9568), yellow eyes (like vanilla)
 - [FOFW Redux](https://www.nexusmods.com/fallout4/mods/9363), Vanilla AIO.
 - [Immersive Mama Murphy](https://www.nexusmods.com/fallout4/mods/25108)
 - [SeriouslySarcastic's Immersive Companions](https://www.nexusmods.com/fallout4/mods/30079)
@@ -416,6 +421,14 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Automatically Lowered Weapons](https://www.nexusmods.com/fallout4/mods/20093)
 - [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique)
 - [Auto Gamepad Switch](https://www.nexusmods.com/fallout4/mods/23136)
+
+![separator](/Media/Separator.png)
+
+# Balancing
+
+- [Loot Logic and Reduction](https://www.nexusmods.com/fallout4/mods/21366)
+- [LootBalance](https://www.nexusmods.com/fallout4/mods/41121)
+- [Scavenge Station Improvements](https://www.nexusmods.com/fallout4/mods/24142), Tiered Scrap only version, ESL-ified the ESP.
 
 ![separator](/Media/Separator.png)
 
@@ -465,17 +478,25 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 # Settlements
 
 - [Place Everywhere](https://www.nexusmods.com/fallout4/mods/9424)
+- [New Infinite Settlement Budget Plugin](https://www.nexusmods.com/fallout4/mods/16939)
+- [Workshop Plus](https://www.nexusmods.com/fallout4/mods/35005)
 - [Workshop Rearranged](https://www.nexusmods.com/fallout4/mods/16181), selected the following patches from the patch pack FOMOD:
   - DEF_UI + VIS: Forwarded my Empty Bottle changes.
   - Vehicle Overhaul: Standalone patch.
   - Lore Friendly Posters: Replacer plugin.
+  - Vault 88 More Rooms: Standalone patch.
+- [The Cozy Scavver](https://www.nexusmods.com/fallout4/mods/38982), 2K main file and bed hotfix.
 - [Relight (WWE)](https://www.nexusmods.com/fallout4/mods/23454)
 - [Workshop Rearranged - Relight](/Custom%20Files/Custom%20Patches/README.md), custom patch.
 - [Scrapping Machine](https://www.nexusmods.com/fallout4/mods/35793) allows you to quickly scrap all your junk by tossing them into a repurposed washing machine. Changed the ESL plugin to ESP-FE.
+- [Vault 88 - More Vault Rooms](https://www.nexusmods.com/fallout4/mods/16896)
 - [Lore-Friendly Posters](https://www.nexusmods.com/fallout4/mods/7145), deleted plugin.
 - [Compact Crafting](https://www.nexusmods.com/fallout4/mods/18264) adds small versions of the crafting benches. I disabled the all-purpose version as I felt it was cheesy, plus junk scrapping can be done with Scrapping Machine. The Chem stations were renamed to Crafting Workbenches for consistency with Simple Crafting Stations. The BSA was replaced with the 2K textures version.
+- [Graf's Security Fences](https://www.nexusmods.com/fallout4/mods/39252), scripted version.
+- [Handmade Turrets](https://www.nexusmods.com/fallout4/mods/37877)
 - [Real Troughs - New Brahmin Feeders](https://www.nexusmods.com/fallout4/mods/12945), ESL-ified the plugin.
 - [Mama Murphy's Chair Redone](https://www.nexusmods.com/fallout4/mods/24819/?), restored the quest requirement and ESL-ified the plugin.
+- [Un-Randomize Workshop Turrets](https://www.nexusmods.com/fallout4/mods/11096), ESL-ified the plugin.
 - [BS Defence](https://www.nexusmods.com/fallout4/mods/20137), UFO4P version.
 - [More Attackers - Get Off My Build Zone](https://www.nexusmods.com/fallout4/mods/27465), selected DLC and BS Defence support in the FOMOD.
 
