@@ -24,6 +24,7 @@ This is a custom plugin that loads an INI file which in turn fires a BAT file up
 - `setgs iRemoveExcessDeadComplexTotalActorCount 65` less dead actors at once
 - `setgs iRemoveExcessDeadTotalActorCount 50` less dead actors at once
 - `setgs iDeathDropWeaponChance 0` prevents enemies from dropping their weapons upon death
+- `setfog 0 100000` disables fog seemingly 'following' the player
 
 ### Replaced Mods
 
@@ -36,6 +37,7 @@ This is a custom plugin that loads an INI file which in turn fires a BAT file up
 ### Credits
 
 - [BiRaitBec](https://www.nexusmods.com/fallout4/mods/23556) for the idea and most of the lines.
+- [AUGSpeed](https://www.nexusmods.com/fallout4/mods/39996) for the fog tweak.
 - [SloppyPooBag](https://www.nexusmods.com/fallout4/mods/15211) for the God Rays tweak.
 - [Puma361](https://www.nexusmods.com/fallout4/users/13815465) for  Longer Power Lines and Longer Area Respawn.
 - [OldNick](https://www.nexusmods.com/fallout4/users/443246) for Faster Terminal Displays.

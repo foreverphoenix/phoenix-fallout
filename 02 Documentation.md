@@ -16,6 +16,7 @@
 - [LUT](#lut)
 - [Visual Effects](#visual-effects)
 - [Landscape](#landscape)
+- [Locations](#locations)
 - [Retextures](#retextures)
 - [Body and Skin](#body-and-skin)
 - [Appearance](#appearance)
@@ -196,6 +197,7 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Corpse Collision](https://www.nexusmods.com/fallout4/mods/37133), turned the ESL into an ESP-FE.
 - [No Lollygagging Settlers](https://www.nexusmods.com/fallout4/mods/10461), ESL-ified the plugin.
 - [Better Female Sitting Animation](https://www.nexusmods.com/fallout4/mods/3426)
+- [Better Bloatflies](https://www.nexusmods.com/fallout4/mods/44117)
 
 ![separator](/Media/Separator.png)
 
@@ -273,6 +275,12 @@ This is completely optional. LUTs affect the overall colours without impacting p
 - [Grimey Puddles (Flickering Puddle Fix)](https://www.nexusmods.com/fallout4/mods/39329/)
 - [WET - Water Enhancement Textures](https://www.nexusmods.com/fallout4/mods/20775)
 - [WAVE - Wave Animations Vanilla Enhanced](https://www.nexusmods.com/fallout4/mods/41568)
+
+![separator](/Media/Separator.png)
+
+# Locations
+
+- [The Sanctuary Bridge](https://www.nexusmods.com/fallout4/mods/22949), forwarded a UFO4P edit.
 
 ![separator](/Media/Separator.png)
 
@@ -414,6 +422,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # Gameplay
 
+- [VAFS Redux - Bullet Time and Manual Critical](https://www.nexusmods.com/fallout4/mods/36519)
 - [Pip-Boy Flashlight](https://www.nexusmods.com/fallout4/mods/10840), selected Alternate animations, the Nave Plate Pip-Boy flashlight, Maglite 300L power armor flaslight, and default light distance (no shadows) in the FOMOD.
 - [Better Companions - No Conflicts](https://www.nexusmods.com/fallout4/mods/24233)
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
@@ -426,8 +435,10 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # Balancing
 
-- [Loot Logic and Reduction](https://www.nexusmods.com/fallout4/mods/21366)
-- [LootBalance](https://www.nexusmods.com/fallout4/mods/41121)
+- [Loot Logic and Reduction](https://www.nexusmods.com/fallout4/mods/21366), reverted most changed to ammunition rarity back to vanilla, ESL-ified the plugins.
+- [LootBalance](https://www.nexusmods.com/fallout4/mods/41121), only to reduce the amount of Medical Items and Chems lying around in the Commonwealth. Cleaned masters and removed the core plugin as it's not needed for the combination we're using.
+- [NPC Loot Drop Balance](https://www.nexusmods.com/fallout4/mods/24163/?)
+- [Vendor Diversity Overhaul](https://www.nexusmods.com/fallout4/mods/24969)
 - [Scavenge Station Improvements](https://www.nexusmods.com/fallout4/mods/24142), Tiered Scrap only version, ESL-ified the ESP.
 
 ![separator](/Media/Separator.png)
@@ -477,11 +488,22 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 
 # Settlements
 
+### Improvements
+
 - [Place Everywhere](https://www.nexusmods.com/fallout4/mods/9424)
 - [New Infinite Settlement Budget Plugin](https://www.nexusmods.com/fallout4/mods/16939)
 - [Workshop Plus](https://www.nexusmods.com/fallout4/mods/35005)
+- [BS Defence](https://www.nexusmods.com/fallout4/mods/20137), UFO4P version.
+- [More Attackers - Get Off My Build Zone](https://www.nexusmods.com/fallout4/mods/27465), selected DLC and BS Defence support in the FOMOD.
+- [Un-Randomize Workshop Turrets](https://www.nexusmods.com/fallout4/mods/11096), ESL-ified the plugin.
+- [Red Rocket - Window Shutters](https://www.nexusmods.com/fallout4/mods/15308), Shutters Only version.
+- [Corrunda's Red Rocket - Light and Curb Fix](https://www.nexusmods.com/fallout4/mods/39208)
+- [Fixed and Cleaned Homeplate](https://www.nexusmods.com/fallout4/mods/38364), ESL version, turned the ESL into an ESP-FE.
+
+### New Objects
+
 - [Workshop Rearranged](https://www.nexusmods.com/fallout4/mods/16181), selected the following patches from the patch pack FOMOD:
-  - DEF_UI + VIS: Forwarded my Empty Bottle changes.
+  - DEF_UI + VIS: Standalone patch. Forwarded my Empty Bottle changes.
   - Vehicle Overhaul: Standalone patch.
   - Lore Friendly Posters: Replacer plugin.
   - Vault 88 More Rooms: Standalone patch.
@@ -496,9 +518,6 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 - [Handmade Turrets](https://www.nexusmods.com/fallout4/mods/37877)
 - [Real Troughs - New Brahmin Feeders](https://www.nexusmods.com/fallout4/mods/12945), ESL-ified the plugin.
 - [Mama Murphy's Chair Redone](https://www.nexusmods.com/fallout4/mods/24819/?), restored the quest requirement and ESL-ified the plugin.
-- [Un-Randomize Workshop Turrets](https://www.nexusmods.com/fallout4/mods/11096), ESL-ified the plugin.
-- [BS Defence](https://www.nexusmods.com/fallout4/mods/20137), UFO4P version.
-- [More Attackers - Get Off My Build Zone](https://www.nexusmods.com/fallout4/mods/27465), selected DLC and BS Defence support in the FOMOD.
 
 ![separator](/Media/Separator.png)
 
