@@ -160,7 +160,6 @@ The Integration plugin is a unified patch that changes the category keyword for 
 - [Workshop Spotlight Fix](https://www.nexusmods.com/fallout4/mods/11090), DLC version, default range, and no shadows.
 - [Workshop Lightbulb Emittance Fix](https://www.nexusmods.com/fallout4/mods/8709)
 - [Power Armor Map Fix](https://www.nexusmods.com/fallout4/mods/8854)
-- [Duffle Bag Sound Fix](https://www.nexusmods.com/fallout4/mods/44855)
 - [Starlight Drive-In LOD Fix](https://www.nexusmods.com/fallout4/mods/23034), turned the ESL into an ESP-FE.
 - [Nuka-World Bottle Scenery Fix](https://www.nexusmods.com/fallout4/mods/17853), ESL-ified the plugin.
 - [Companion Stealth Distance Fix](https://www.nexusmods.com/fallout4/mods/15823), ESL-ified the plugin.
@@ -527,7 +526,6 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 - [LOST Audio Tweaks](https://www.nexusmods.com/fallout4/mods/38448)
 - [Project Reality Footsteps](https://www.nexusmods.com/fallout4/mods/35904), BA2 version, ESL-ified the ESP.
 - [PAMS - Power Armor Movement Sounds](https://www.nexusmods.com/fallout4/mods/1544), light version plus Louder High Landing.
-- [Quieter Settlements](https://www.nexusmods.com/fallout4/mods/2819), recommended AIO, ESL-ified the plugin.
 
 ![separator](/Media/Separator.png)
 
