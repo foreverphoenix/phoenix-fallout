@@ -27,6 +27,7 @@
 - [Power Armor](#power-armor)
 - [Quests](#quests)
 - [Settlements](#settlements)
+- [New Equipment](#new-equipment)
 - [Sound Effects](#sound-effects)
 - [Music](#music)
 - [Player Voice](#player-voice)
@@ -308,6 +309,7 @@ This is completely optional. LUTs affect the overall colours without impacting p
 - [Chem Redux](https://www.nexusmods.com/fallout4/mods/2099), No Glow version, forwarded UFO4P and VIS changes, ESL-ified the plugin.
 - [Grey Tortoise Cigarettes Redux](https://www.nexusmods.com/fallout4/mods/28204)
 - [Bottles Labels Overhaul](https://www.nexusmods.com/fallout4/mods/1500), 1K version, no water bottles.
+- [Sweet Roll 5000 - Xtreme Sweetroll Mesh and Texture Replacer](https://www.nexusmods.com/fallout4/mods/32224), Gross version.
 - [Retextured Water - by Ben Ephla](https://www.nexusmods.com/fallout4/mods/20399)
 - [Components Redone](https://www.nexusmods.com/fallout4/mods/25188), 1K version and copper fix, selected Vanilla Weights VIS in the FOMOD, ESL-ified the plugin.
 - [Better Ammo Boxes](https://www.nexusmods.com/fallout4/mods/8087), all three main files, merged together into one mod folder, selected 1K variants in the FOMOD.
@@ -434,7 +436,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # Balancing
 
-- [Loot Logic and Reduction](https://www.nexusmods.com/fallout4/mods/21366), reverted most changed to ammunition rarity back to vanilla, ESL-ified the plugins.
+- [Loot Logic and Reduction](https://www.nexusmods.com/fallout4/mods/21366), main file and Scrounger / Fortune Finder Rebalance, reverted changes to rarity for most types of ammunition in the main file to vanilla, ESL-ified the plugins.
 - [LootBalance](https://www.nexusmods.com/fallout4/mods/41121), only to reduce the amount of Medical Items and Chems lying around in the Commonwealth. Cleaned masters and removed the core plugin as it's not needed for the combination we're using.
 - [NPC Loot Drop Balance](https://www.nexusmods.com/fallout4/mods/24163/?)
 - [Vendor Diversity Overhaul](https://www.nexusmods.com/fallout4/mods/24969)
@@ -479,8 +481,12 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 
 # Quests
 
+**Minutemen Radiant Quests:** Before re-taking the Castle, you will only be able to pick up one radiant quest at a time (instead of the vanilla 3). After Taking Independence, you will get one final radiant quest after which Preston will stop bothering you and you will need to tune into Radio Freedom for further quests.
+
 - [Start Me Up](https://www.nexusmods.com/fallout4/mods/18946/?), Basic version.
 - [Main Quest Choices Extended](https://www.nexusmods.com/fallout4/mods/19835)
+- [One Minutemen Radiant Quest At A Time](https://www.nexusmods.com/fallout4/mods/22296), ESL-ified the plugin.
+- [Preston Garvey No Radiant Settlement Quests](https://www.nexusmods.com/fallout4/mods/24940), ESL-ified the plugin.
 - [Nuka World - Skip Raiding Your Own Settlements](https://www.nexusmods.com/fallout4/mods/18121), forwarded UFO4P / FDI Patch edits, ESL-ified the plugin.
 
 ![separator](/Media/Separator.png)
@@ -504,26 +510,28 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 - [Workshop Rearranged](https://www.nexusmods.com/fallout4/mods/16181), selected the following patches from the patch pack FOMOD:
   - DEF_UI + VIS: Standalone patch. Forwarded my Empty Bottle changes.
   - Vehicle Overhaul: Standalone patch.
-  - Lore Friendly Posters: Replacer plugin.
   - Vault 88 More Rooms: Standalone patch.
 - [The Cozy Scavver](https://www.nexusmods.com/fallout4/mods/38982), 2K main file and bed hotfix.
 - [Relight (WWE)](https://www.nexusmods.com/fallout4/mods/23454)
 - [Workshop Rearranged - Relight](/Custom%20Files/Custom%20Patches/README.md), custom patch.
 - [Scrapping Machine](https://www.nexusmods.com/fallout4/mods/35793) allows you to quickly scrap all your junk by tossing them into a repurposed washing machine. Changed the ESL plugin to ESP-FE.
 - [Vault 88 - More Vault Rooms](https://www.nexusmods.com/fallout4/mods/16896)
-- [Lore-Friendly Posters](https://www.nexusmods.com/fallout4/mods/7145), deleted plugin.
-- [Compact Crafting](https://www.nexusmods.com/fallout4/mods/18264) adds small versions of the crafting benches. I disabled the all-purpose version as I felt it was cheesy, plus junk scrapping can be done with Scrapping Machine. The Chem stations were renamed to Crafting Workbenches for consistency with Simple Crafting Stations. The BSA was replaced with the 2K textures version.
-- [Graf's Security Fences](https://www.nexusmods.com/fallout4/mods/39252), scripted version.
 - [Handmade Turrets](https://www.nexusmods.com/fallout4/mods/37877)
 - [Real Troughs - New Brahmin Feeders](https://www.nexusmods.com/fallout4/mods/12945), ESL-ified the plugin.
-- [Mama Murphy's Chair Redone](https://www.nexusmods.com/fallout4/mods/24819/?), restored the quest requirement and ESL-ified the plugin.
+
+![separator](/Media/Separator.png)
+
+# New Equipment
+
+- [K-9 Harness](https://www.nexusmods.com/fallout4/mods/17686)
+- [Integration Patch - K-9 Harness](/Custom%20Files/Custom%20Patches.md), custom file.
 
 ![separator](/Media/Separator.png)
 
 # Sound Effects
 
 - [Reverb and Ambience Overhaul](https://www.nexusmods.com/fallout4/mods/10189/?)
-- [LOST Audio Tweaks](https://www.nexusmods.com/fallout4/mods/38448)
+- [LOST Audio Tweaks](https://www.nexusmods.com/fallout4/mods/38448), RAO main file plus AT True Storms + RAO patch.
 - [Project Reality Footsteps](https://www.nexusmods.com/fallout4/mods/35904), BA2 version, ESL-ified the ESP.
 - [PAMS - Power Armor Movement Sounds](https://www.nexusmods.com/fallout4/mods/1544), light version plus Louder High Landing.
 
