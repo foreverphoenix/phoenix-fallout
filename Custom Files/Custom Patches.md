@@ -23,6 +23,7 @@ Master patch for all remaining conflicts.
 - Resolved conflicts between Loot Logic and Reduction and Workshop Rearranged.
 - Resolved conflicts between VAFS, VIS, and Chem Redux.
 - Resolved conflicts between More Attackers and Keep Radiants In The Commonwealth.
+- Resolved conflicts between Keep Radiants In The Commonwealth and Preston Garvey No Radiant Settlement Quests.
 
 # Integration Patches
 
