@@ -23,3 +23,13 @@ Master patch for all remaining conflicts.
 - Resolved conflicts between Loot Logic and Reduction and Workshop Rearranged.
 - Resolved conflicts between VAFS, VIS, and Chem Redux.
 - Resolved conflicts between More Attackers and Keep Radiants In The Commonwealth.
+
+# Integration Patches
+
+These patches serve to apply sorting tags and, when appropriate, changes to crafting recipes to use the new crafting station and its custom categories.
+
+### K-9 Harness
+
+- Added the (Dog) tag to the new item.
+- Added the {Mod} tag to the two loose mods.
+- Tweaked naming rules to match VIS' naming scheme.
