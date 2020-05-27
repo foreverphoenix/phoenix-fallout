@@ -29,6 +29,12 @@ Master patch for all remaining conflicts.
 
 These patches serve to apply sorting tags and, when appropriate, changes to crafting recipes to use the new crafting station and its custom categories.
 
+### Militarized Minutemen
+
+- Includes the Scarph Morphing fix found [here](https://www.nexusmods.com/fallout4/mods/32369).
+- Added proper Phoenix Sorting tags.
+- Units no longer spawn with Combat / Leather armor on top of the Minutemen Uniform.
+
 ### K-9 Harness
 
 - Added the (Dog) tag to the new item.
