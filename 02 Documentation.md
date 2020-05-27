@@ -408,7 +408,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 
 # NPC Overhauls
 
-- [Valentine Reborn](https://www.nexusmods.com/fallout4/mods/9568), yellow eyes (like vanilla)
+- [Valentine Reborn](https://www.nexusmods.com/fallout4/mods/9568), yellow eyes (like vanilla).
 - [FOFW Redux](https://www.nexusmods.com/fallout4/mods/9363), Vanilla AIO.
 - [Immersive Mama Murphy](https://www.nexusmods.com/fallout4/mods/25108)
 - [SeriouslySarcastic's Immersive Companions](https://www.nexusmods.com/fallout4/mods/30079)
@@ -429,7 +429,7 @@ This section contains multiple Pip-Boy retextures. Only activate one.
 - [Everyone's Best Friend](https://www.nexusmods.com/fallout4/mods/13459)
 - [EBF UFO4P Compatibility Fix](https://www.nexusmods.com/fallout4/mods/43409)
 - [Automatically Lowered Weapons](https://www.nexusmods.com/fallout4/mods/20093)
-- [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique)
+- [Capital Wasteland Behemoths](https://www.nexusmods.com/fallout4/mods/41549), tagged the included mystery Misc Item as (Unique).
 - [Auto Gamepad Switch](https://www.nexusmods.com/fallout4/mods/23136)
 
 ![separator](/Media/Separator.png)
@@ -523,6 +523,9 @@ Paints and materials are now two different types of mods. Paints are purely cosm
 
 # New Equipment
 
+- [Military Minutemen](https://www.nexusmods.com/fallout4/mods/29853), Blue Version (Leveled Lists).
+- [Military Minutemen - Uniforms Patches and Insignia Addon](https://www.nexusmods.com/fallout4/mods/32369), Strapped Cig Helmet CTD Fix.
+- [Integration Patch - Military Minutemen](Custom%20Files/Custom%20Patches.md), custom file.
 - [K-9 Harness](https://www.nexusmods.com/fallout4/mods/17686)
 - [Integration Patch - K-9 Harness](/Custom%20Files/Custom%20Patches.md), custom file.
 
