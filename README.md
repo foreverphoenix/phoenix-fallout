@@ -2,7 +2,7 @@
 
 # Welcome
 
-The Phoenix Flavour - Wasteland Edition (or TPF:WE for short) is a Wabbajack mod list for Fallout 4 with an emphasis on enhanced gameplay and visuals while staying true to the original game. As a vanilla-plus overhaul for a 2015 game, you can expect improved visuals and performance as well as changes to various gameplay mechanics and some new content.
+The Phoenix Flavour - Fallout 4 Edition is a Wabbajack mod list for (hey, you guessed it) Fallout 4 with an emphasis on enhanced gameplay and visuals while staying true to the original game. As a vanilla-plus overhaul for a 2015 game, you can expect improved visuals and performance as well as changes to various gameplay mechanics and some new content.
 
 ## Features
 
@@ -48,7 +48,7 @@ This Wabbajack list is a side-project of mine, based on years of attempting to t
 
 # Future Plans
 
-I am planning to expand TPF:WE in three steps:
+I am planning to expand TPF in three steps:
 
 1. Create a baseline vanilla plus setup. Establish primary systems (item sorting, crafting stations).
 2. Expand the settlement building system with new mods and SMM integration.
