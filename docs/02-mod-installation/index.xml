@@ -1,0 +1,371 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The Phoenix Flavour – Mod Installation</title><link>http://example.org/docs/02-mod-installation/</link><description>Recent content in Mod Installation on The Phoenix Flavour</description><generator>Hugo -- gohugo.io</generator><language>en-gb</language><atom:link href="http://example.org/docs/02-mod-installation/index.xml" rel="self" type="application/rss+xml"/><item><title>Docs: Essential Mods</title><link>http://example.org/docs/02-mod-installation/step-01/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-01/</guid><description>
+&lt;h2 id="address-library-for-skse-plugins">Address Library for SKSE Plugins&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32444?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> All in one&lt;/li>
+&lt;/ul>
+&lt;h2 id="sse-engine-fixes">SSE Engine Fixes&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> (Part 1) Engine Fixes&lt;/li>
+&lt;/ul>
+&lt;h4 id="preloader">Preloader&lt;/h4>
+&lt;ul>
+&lt;li>Download the following file manually:
+&lt;ul>
+&lt;li>&lt;strong>(Part 2) Engine Fixes - skse64 Preloader and TBB Lib&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Open the downloaded archive.&lt;/li>
+&lt;li>Extract the following files into your &lt;strong>root&lt;/strong> folder:
+&lt;ul>
+&lt;li>&lt;strong>d3dx9_42.dll&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tbb.dll&lt;/strong>&lt;/li>
+&lt;li>&lt;strong>tbbmalloc.dll&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Click &lt;strong>Yes&lt;/strong> when asked to overwrite.&lt;/li>
+&lt;/ul>
+&lt;h4 id="engine-fixes-ini">Engine Fixes INI&lt;/h4>
+&lt;ul>
+&lt;li>Double-click &lt;strong>SSE Engine Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>INI-Files&lt;/strong> tab and select the &lt;strong>EngineFixes.ini&lt;/strong>.&lt;/li>
+&lt;li>Edit the following line:
+&lt;ul>
+&lt;li>&lt;code>SleepWaitTime = true&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save your change.&lt;/li>
+&lt;/ul>
+&lt;h2 id="net-script-framework-nsf">.NET Script Framework (NSF)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/21294?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> NetScriptFramework SkyrimSE v13&lt;/li>
+&lt;/ul>
+&lt;h2 id="sse-display-tweaks">SSE Display Tweaks&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/34705?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SSE Display Tweaks&lt;/li>
+&lt;/ul>
+&lt;h2 id="autorun-console-commands-acc">Autorun Console Commands (ACC)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/24919?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> ACC - Autorun Console Commands&lt;/li>
+&lt;/ul>
+&lt;h2 id="unofficial-high-definition-audio-project">Unofficial High Definition Audio Project&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18115?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Music - HQ&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 1&lt;/li>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Voices EN - Part 2&lt;/li>
+&lt;/ul>
+&lt;h2 id="unofficial-skyrim-special-edition-patch-ussep">Unofficial Skyrim Special Edition Patch (USSEP)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/266?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Unofficial Skyrim Special Edition Patch&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>Unofficial Skyrim Special Edition Patch.modgroups&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="alternate-start---live-another-life-as-lal">Alternate Start - Live Another Life (AS LAL)&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/272?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> Alternate Start - Live Another Life&lt;/li>
+&lt;/ul>
+&lt;h2 id="skyrim-particle-patch">Skyrim Particle Patch&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="http://enbseries.enbdev.com/forum/viewtopic.php?t=1499">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="installation-instructions">Installation Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Find the &lt;strong>SPECIAL EDITION&lt;/strong> section in the forum post linked above and click the &lt;strong>GOOGLE DRIVE&lt;/strong> link (see picture).&lt;/li>
+&lt;li>Download the archive from Google Drive and move it manually to &lt;code>Your Modding Folder\ARCHIVE\MO2 Downloads&lt;/code>.&lt;/li>
+&lt;li>Go to the &lt;strong>Downloads&lt;/strong> tab and double-click the mod to install it as usual.&lt;/li>
+&lt;li>I recommend renaming it simply to &lt;strong>Skyrim Particle Patch&lt;/strong> after the installation.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;img src="Pictures/mod_installation/skyrim_particle_patch_download.png" alt="Skyrim Particle Patch download link">&lt;/p>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>textures\effects\gradients\gradwhitewater.dds&lt;/code>&lt;/li>
+&lt;li>&lt;code>Particle Patch for ENB SSE.esp&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The plugin is not needed. Its functionality was replaced by ENB Helper. The texture can cause water spray to look much darker than intended with Realistic Water Two.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="static-mesh-improvement-mod-smimhttpswwwnexusmodscomskyrimspecialeditionmods659tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/659/?tab=files">Static Mesh Improvement Mod (SMIM)&lt;/a>&lt;/h2>
+&lt;p>&lt;button type="button" class="btn btn-primary">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17230?tab=files">Download&lt;/a>&lt;/button>&lt;/p>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Files:&lt;/strong> SMIM SE 2-08&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main Installer Choice:&lt;/strong> Skyrim 2016 Special Edition: Everything&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-2">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>meshes\architecture\farmhouse\walkway\walkwaycwall01.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\architecture\solitude\doors\sgatedoor.nif&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The first mesh will be replaced either by the fixed version contained in Skyrim Landscape and Water Fixes or by Real Walls 3D. Deleting the second mesh will allow you to use a different retexture for the Solitude city gate.&lt;/p>
+&lt;/blockquote></description></item><item><title>Docs: Fixes</title><link>http://example.org/docs/02-mod-installation/step-02/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>http://example.org/docs/02-mod-installation/step-02/</guid><description>
+&lt;h2 id="weapons-armor-clothing-and-clutter-fixes-waccf">Weapons, Armor, Clothing and Clutter Fixes (WACCF)&lt;/h2>
+&lt;h4 id="download-instructionshttpswwwnexusmodscomskyrimspecialeditionmods18994tabfiles">&lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18994?tab=files">Download Instructions&lt;/a>&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Weapons Armor Clothing and Clutter Fixes&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>WACCF_BashedPatchLvlListFix.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>Weapons Armor Clothing &amp;amp; Clutter Fixes.modgroups&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="22-wiseman303s-flora-fixes---revampedhttpswwwnexusmodscomskyrimspecialeditionmods28197tabfiles">2.2 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/28197?tab=files">Wiseman303&amp;rsquo;s Flora Fixes - Revamped&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - WM’s Flora Fixes - Revamped&lt;/li>
+&lt;li>&lt;strong>Optional File&lt;/strong> - WM’s Flora Fixes - SMIM Patch&lt;/li>
+&lt;/ul>
+&lt;h2 id="23-weapon-speed-effects-fixhttpswwwnexusmodscomskyrimspecialeditionmods27677tabfiles">2.3 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/27677?tab=files">Weapon Speed Effects Fix&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-1">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Weapon Speed Effects Fix&lt;/li>
+&lt;/ul>
+&lt;h2 id="24-quests-are-in-skyrimhttpswwwnexusmodscomskyrimspecialeditionmods18416tabfiles">2.4 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18416?tab=files">Quests Are In Skyrim&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-2">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - QuestsAreInSkyrim_USSEP_1_2_reupload&lt;/li>
+&lt;/ul>
+&lt;h2 id="25-tavern-ai-fixhttpswwwnexusmodscomskyrimspecialeditionmods23107tabfiles-optional">2.5 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/23107?tab=files">Tavern AI Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-3">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - TavernAIFix&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-1">Additional Instructions&lt;/h4>
+&lt;p>The mod comes with two optional console commands to customise it. Fortunately we have Autorun Console Commands to easily set and forget them. This is optional and you can add one or both of the commands (personally I only use the second one to finally stop innkeepers from showing me to my room).&lt;/p>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Autorun Console Commands&lt;/strong> in your mod order.&lt;/li>
+&lt;li>In the &lt;strong>Textfiles&lt;/strong> tab, select &lt;strong>Autorun.txt&lt;/strong> and add one or both of the following lines:
+&lt;ul>
+&lt;li>&lt;code>set TAIF_ServePlayerEveryTime to 1&lt;/code>&lt;/li>
+&lt;li>&lt;code>set TAIF_ShowRoomNeverShow to 1&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Close the window and click &lt;strong>Yes&lt;/strong> when asked to save.&lt;/li>
+&lt;/ul>
+&lt;p>The commands will now be executed automatically when you start a new game or load your save.&lt;/p>
+&lt;h2 id="26-skyrim-landscape-and-water-fixeshttpswwwnexusmodscomskyrimspecialeditionmods26138tabfiles">2.6 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/26138?tab=files">Skyrim Landscape and Water Fixes&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-4">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Skyrim Landscape and Water Fixes - FOMOD Installer&lt;/li>
+&lt;/ul>
+&lt;h3 id="fomod-instructions">FOMOD Instructions&lt;/h3>
+&lt;ul>
+&lt;li>&lt;strong>Main Plugin:&lt;/strong> ESM&lt;/li>
+&lt;li>&lt;strong>Patches:&lt;/strong> &lt;em>select nothing&lt;/em>&lt;/li>
+&lt;li>&lt;strong>Walkway Wall FIX:&lt;/strong> Walkway Wall FIX SMIM&lt;/li>
+&lt;li>&lt;strong>Optional:&lt;/strong> Missing Lights Fix&lt;/li>
+&lt;/ul>
+&lt;h2 id="27-landscape-fixes-for-grass-modshttpswwwnexusmodscomskyrimspecialeditionmods9005tabfiles">2.7 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9005?tab=files">Landscape Fixes for Grass Mods&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-5">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Landscape Fixes For Grass Mods&lt;/li>
+&lt;li>&lt;strong>Optional File&lt;/strong> - z Vanilla Military Camps&lt;/li>
+&lt;li>&lt;strong>Optional File&lt;/strong> - Patches for Arthmoor’s Town add-ons&lt;/li>
+&lt;/ul>
+&lt;h4 id="download-instructions---patches-for-arthmoors-towns">Download Instructions - Patches for Arthmoor&amp;rsquo;s Towns&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Select options:&lt;/strong>
+&lt;ul>
+&lt;li>Patch for Alternate Start - Live Another Life&lt;/li>
+&lt;li>&lt;del>Patch for Cutting Room Floor&lt;/del>&lt;/li>
+&lt;li>Patch for Arthmoor’s Dragon Bridge&lt;/li>
+&lt;li>Patch for Arthmoor’s Shor’s Stone&lt;/li>
+&lt;li>Patch for Arthmoor’s Falkreath&lt;/li>
+&lt;li>Patch for Arthmoor’s Rorikstead&lt;/li>
+&lt;li>Patch for Arthmoor’s Ivarstead&lt;/li>
+&lt;li>Patch for Provincial Courier&lt;/li>
+&lt;li>&lt;del>Patch for Oakwood&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h4 id="mod-order-instructions">Mod Order Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Place &lt;strong>Landscape Fixes for Grass Mods - Arthmoor’s Towns Patches&lt;/strong> below the &lt;strong>PATCHES&lt;/strong> separator.&lt;/li>
+&lt;/ul>
+&lt;h2 id="28-no-animals-report-crimes-narchttpswwwnexusmodscomskyrimspecialeditionmods17946tabfiles">2.8 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17946?tab=files">No Animals Report Crimes (NARC)&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-6">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - NARC Remade 1.0.2&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-1">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Select core file:&lt;/strong>
+&lt;ul>
+&lt;li>NARC&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>&lt;strong>Select patches:&lt;/strong>
+&lt;ul>
+&lt;li>&lt;del>Patch for Beyond Reach&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Beyond Skyrim - Bruma&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Blaze of Eventide&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Convenient Horses&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Darkend&lt;/del>&lt;/li>
+&lt;li>Patch for The Forgotten City&lt;/li>
+&lt;li>&lt;del>Patch for The Gray Cowl of Nocturnal&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Immersive Horses&lt;/del>&lt;/li>
+&lt;li>&lt;del>Patch for Skyrim Immersive Creatures&lt;/del>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="29-raven-rock---fix-exit-on-horsebackhttpswwwnexusmodscomskyrimspecialeditionmods14075tabfiles-optional">2.9 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14075?tab=files">Raven Rock - Fix Exit on Horseback&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-7">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Raven Rock - Fix Exit on Horseback SE&lt;/li>
+&lt;/ul>
+&lt;h2 id="210-dawnguard-dont-hunt-cured-vampireshttpswwwnexusmodscomskyrimspecialeditionmods5471tabfiles-optional">2.10 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5471?tab=files">Dawnguard Don&amp;rsquo;t Hunt Cured Vampires&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-8">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Dawnguard Dont Hunt Cured Vampires 1_0&lt;/li>
+&lt;/ul>
+&lt;h2 id="211-charge-dialogue-fixhttpswwwnexusmodscomskyrimspecialeditionmods17716-optional">2.11 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/17716">Charge Dialogue Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-9">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Charge Dialogue Fix&lt;/li>
+&lt;/ul>
+&lt;h2 id="212-rude-imperial-soldiers-escort-prisoner-fixhttpswwwnexusmodscomskyrimspecialeditionmods894tabfiles-optional">2.12 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/894?tab=files">Rude Imperial Soldiers Escort Prisoner Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-10">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - ImperialSoldiersEscortFix_v10&lt;/li>
+&lt;/ul>
+&lt;h3 id="porting-instructions">Porting Instructions&lt;/h3>
+&lt;ul>
+&lt;li>Resave &lt;strong>ImperialSoldiersEscortFix.esp&lt;/strong> in the Creation Kit.&lt;/li>
+&lt;/ul>
+&lt;h2 id="213-mannequins-stay-puthttpswwwnexusmodscomskyrimspecialeditionmods6414tabfiles-optional">2.13 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/6414?tab=files">Mannequins Stay Put&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-11">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Mannequin Stay Put&lt;/li>
+&lt;/ul>
+&lt;h2 id="214-eye-normal-map-fixhttpswwwnexusmodscomskyrimspecialeditionmods5445tabfiles-optional">2.14 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5445?tab=files">Eye Normal Map Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-12">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional File&lt;/strong> - Eye Normal Map Fix SSE BC7&lt;/li>
+&lt;/ul>
+&lt;h2 id="215-skyrim-ultimate-eyemeshes-ruhmasteredhttpswwwnexusmodscomskyrimspecialeditionmods18147tabfiles">2.15 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18147?tab=files">Skyrim Ultimate Eyemeshes Ruhmastered&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-13">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - SUEMR SSE v3.0 Meshes&lt;/li>
+&lt;li>&lt;strong>Main File&lt;/strong> - SUEMR v3.0 Simple Vampire Fixes SSE&lt;/li>
+&lt;li>&lt;strong>Optional File&lt;/strong> - SUEMR Optional Red Vampire Eye Meshes SSE&lt;/li>
+&lt;/ul>
+&lt;h3 id="additional-instructions-2">Additional Instructions&lt;/h3>
+&lt;ul>
+&lt;li>Double-click &lt;strong>Skyrim Ultimate Eye Meshes Ruhmastered - Simple Vampire Fixes&lt;/strong> in your mod order.&lt;/li>
+&lt;li>Switch to the &lt;strong>Filetree&lt;/strong> tab and rename the following file:
+&lt;ul>
+&lt;li>SimpleVampFixesSSE.&lt;strong>esp&lt;/strong>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>This changes the plugin from ESL to ESP-Lite in order to allow us to manipulate its load order position.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="216-eyes-ao-clipping-fixhttpswwwnexusmodscomskyrimspecialeditionmods25753tabfiles-optional">2.16 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25753?tab=files">Eyes AO Clipping Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-14">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Optional File&lt;/strong> - Eyes AO Clipping Fix - Ruhmastered&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-3">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Delete the following file(s) and/or folders:
+&lt;ul>
+&lt;li>&lt;code>meshes\actors\character\character assets\eyesmalevampire.nif&lt;/code>&lt;/li>
+&lt;li>&lt;code>meshes\actors\character\character assets\eyesfemalevampire.nif&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>These meshes conflict with SUEMR - Vampire Eye Glow.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="217-enb-brow-fixhttpswwwnexusmodscomskyrimspecialeditionmods18783tabfiles-optional">2.17 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/18783?tab=files">ENB Brow Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-15">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - ENB Brow Fix SE 1.2&lt;/li>
+&lt;/ul>
+&lt;h2 id="218-double-sided-vertex-human-mouth-fixhttpswwwnexusmodscomskyrimspecialeditionmods25938tabfiles-optional">2.18 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/25938?tab=files">Double Sided Vertex Human Mouth Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-16">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Double Sided Human Mouth Fix SSE&lt;/li>
+&lt;/ul>
+&lt;h2 id="219-woodelf---malehair---fixhttpswwwnexusmodscomskyrimspecialeditionmods9271tabfiles-optional">2.19 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/9271?tab=files">WoodElf - MaleHair - Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-17">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - WoodElf - MaleHair - Fix&lt;/li>
+&lt;/ul>
+&lt;h2 id="220-sound-hammering-soundshttpswwwnexusmodscomskyrimspecialeditionmods5592tabfiles-optional">2.20 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/5592?tab=files">Sound Hammering Sounds&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-18">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Sound Hammering Sounds&lt;/li>
+&lt;/ul>
+&lt;h2 id="221-dragon-stalking-fixhttpswwwnexusmodscomskyrimspecialeditionmods14060tabfiles-optional">2.21 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/14060?tab=files">Dragon Stalking Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-19">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Dragon Stalking Fix&lt;/li>
+&lt;/ul>
+&lt;h4 id="additional-instructions-4">Additional Instructions&lt;/h4>
+&lt;ul>
+&lt;li>Unpack &lt;strong>DragonStalkingFix.bsa&lt;/strong> through Mod Organizer 2.&lt;/li>
+&lt;li>Delete the following file(s) and/or folder(s):
+&lt;ul>
+&lt;li>&lt;code>DragonStalkingFix.esp&lt;/code>&lt;/li>
+&lt;li>&lt;code>DragonStalkingFix.bsa&lt;/code>&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;blockquote>
+&lt;p>The plugin is empty and only serves to load the archive which is now unpacked.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="222-seranas-hood-fixhttpswwwnexusmodscomskyrimspecialeditionmods20243tabfiles-optional">2.22 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/20243?tab=files">Serana&amp;rsquo;s Hood Fix&lt;/a> (optional)&lt;/h2>
+&lt;h4 id="download-instructions-20">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Serana’s Hood Fix&lt;/li>
+&lt;/ul>
+&lt;h4 id="fomod-instructions-2">FOMOD Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Choose Version:&lt;/strong> Realistic&lt;/li>
+&lt;/ul>
+&lt;h2 id="223-bug-fixeshttpswwwnexusmodscomskyrimspecialeditionmods33261tabfiles">2.23 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/33261?tab=files">Bug Fixes&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-21">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - Bug Fixes SSE v2&lt;/li>
+&lt;/ul>
+&lt;h2 id="224-actor-limit-fixhttpswwwnexusmodscomskyrimspecialeditionmods32349tabfiles">2.24 &lt;a href="https://www.nexusmods.com/skyrimspecialedition/mods/32349?tab=files">Actor Limit Fix&lt;/a>&lt;/h2>
+&lt;h4 id="download-instructions-22">Download Instructions&lt;/h4>
+&lt;ul>
+&lt;li>&lt;strong>Main File&lt;/strong> - ActorLimitPlugin v2&lt;/li>
+&lt;/ul></description></item></channel></rss>
