@@ -1,7 +1,7 @@
 {
-  "name": "the-phoenix-flavour",
+  "name": "phoenix-fallout",
   "version": "1.0.0",
-  "description": "Guide for Skyrim modding",
+  "description": "Fallout 4 Wabbajack List",
   "main": "none.js",
   "dependencies": {
     "autoprefixer": "^9.8.0",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/foreverphoenix/the-phoenix-flavour.git"
+    "url": "git+https://github.com/foreverphoenix/phoenix-fallout.git"
   },
   "keywords": [
     "Skyrim",
